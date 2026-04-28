@@ -1,0 +1,2129 @@
+2026-02-05 23:05:14,403 - __main__ - INFO - ======================================================================
+2026-02-05 23:05:14,404 - __main__ - INFO - Face Recognition Attendance System - Training
+2026-02-05 23:05:14,406 - __main__ - INFO - ======================================================================
+2026-02-05 23:05:14,407 - face_encoder - INFO - Starting face encoding training...
+2026-02-05 23:05:14,411 - face_encoder - INFO - Processing person: 12400794
+2026-02-05 23:05:16,109 - face_encoder - INFO - Processed 11 images for 12400794
+2026-02-05 23:05:16,110 - face_encoder - INFO - Processing person: 12400795
+2026-02-05 23:05:17,206 - face_encoder - INFO - Processed 9 images for 12400795
+2026-02-05 23:05:17,210 - face_encoder - INFO - Processing person: 12412522
+2026-02-05 23:05:17,879 - face_encoder - INFO - Processed 4 images for 12412522
+2026-02-05 23:05:17,880 - face_encoder - INFO - Training complete!
+2026-02-05 23:05:17,881 - face_encoder - INFO - Valid persons: 3
+2026-02-05 23:05:17,881 - face_encoder - INFO - Total images processed: 24
+2026-02-05 23:05:17,882 - face_encoder - INFO - Total encodings generated: 24
+2026-02-05 23:05:17,889 - face_encoder - INFO - Encodings saved to C:\Users\meutk\OneDrive\Desktop\Face Recognition Attendance System\encodings\face_encodings.npy
+2026-02-05 23:05:17,890 - face_encoder - INFO - Labels saved to C:\Users\meutk\OneDrive\Desktop\Face Recognition Attendance System\encodings\labels.npy
+2026-02-05 23:05:17,891 - face_encoder - INFO - Person mapping saved to C:\Users\meutk\OneDrive\Desktop\Face Recognition Attendance System\encodings\person_mapping.json
+2026-02-05 23:05:17,892 - __main__ - INFO - 
+======================================================================
+2026-02-05 23:05:17,892 - __main__ - INFO - Training Summary:
+2026-02-05 23:05:17,893 - __main__ - INFO -   Total Encodings: 24
+2026-02-05 23:05:17,893 - __main__ - INFO -   Total Persons: 3
+2026-02-05 23:05:17,894 - __main__ - INFO -   Persons:
+2026-02-05 23:05:17,895 - __main__ - INFO -     12400794: 11 images
+2026-02-05 23:05:17,895 - __main__ - INFO -     12400795: 9 images
+2026-02-05 23:05:17,896 - __main__ - INFO -     12412522: 4 images
+2026-02-05 23:05:17,896 - __main__ - INFO - ======================================================================
+
+2026-02-05 23:07:26,507 - __main__ - INFO - ======================================================================
+2026-02-05 23:07:26,508 - __main__ - INFO - Face Recognition Attendance System
+2026-02-05 23:07:26,509 - __main__ - INFO - ======================================================================
+2026-02-05 23:07:26,510 - attendance_system - INFO - No attendance file for today
+2026-02-05 23:07:26,617 - face_recognizer - INFO - Recognizer initialized with 24 encodings
+2026-02-05 23:07:26,618 - __main__ - INFO - Encodings loaded successfully
+2026-02-05 23:07:26,619 - __main__ - INFO - Starting camera (ID: 0)...
+2026-02-05 23:07:26,619 - __main__ - INFO - Press 'q' to quit, 's' to save frame, 'r' to reset attendance
+2026-02-05 23:07:30,038 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:30,164 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:30,351 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:30,515 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:30,660 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:30,817 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:31,007 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:31,153 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:31,315 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:31,502 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:31,667 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:31,824 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:32,002 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:32,158 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:32,335 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:32,501 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:32,670 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:32,836 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:33,007 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:33,171 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:33,330 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:33,505 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:33,664 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:33,837 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:33,997 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:34,148 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:34,335 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:34,489 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:34,677 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:34,819 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:35,013 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:35,154 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:35,315 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:35,492 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:35,652 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:35,817 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:35,988 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:36,146 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:36,324 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:36,484 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:36,660 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:36,824 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:36,994 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:37,158 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:37,332 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:37,495 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:37,668 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:37,822 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:38,001 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:38,164 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:38,345 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:38,505 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:38,677 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:38,831 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:38,997 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:39,165 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:39,329 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:39,509 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:39,670 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:39,849 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:40,009 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:40,152 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:40,343 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:40,493 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:40,679 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:40,824 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:41,030 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-05 23:07:41,181 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:41,337 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:41,503 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:41,670 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:41,854 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:42,007 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:42,157 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:42,335 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:42,500 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-05 23:07:42,676 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:42,830 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:43,006 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:43,168 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:43,346 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:43,511 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:43,682 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:43,844 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:44,017 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:44,193 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:44,336 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:44,517 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:44,682 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:44,856 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:45,015 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:45,191 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:45,360 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:45,520 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-05 23:07:45,685 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:45,861 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:46,019 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:46,168 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:46,359 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:46,539 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:46,690 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:46,868 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:47,035 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:47,195 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:47,371 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:47,541 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:47,542 - attendance_system - INFO - Marked attendance for 12412522 (ID: 2)
+2026-02-05 23:07:47,706 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:47,855 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:48,012 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:48,198 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:48,351 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:48,505 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:48,696 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:48,853 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:49,054 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:49,211 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:49,354 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:49,510 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:49,709 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:49,857 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:50,013 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:50,208 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:50,367 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:50,505 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:50,506 - attendance_system - INFO - Marked attendance for 12400795 (ID: 1)
+2026-02-05 23:07:50,724 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:50,858 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:51,045 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:51,208 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:51,357 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:51,517 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:51,704 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:51,860 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:52,011 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:52,196 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:52,353 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:52,502 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:52,705 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:52,839 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:52,996 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:53,189 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:53,336 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:53,494 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:53,686 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:53,847 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:53,999 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:54,165 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:54,337 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:54,497 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:54,675 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:54,830 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:55,023 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:55,179 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:55,333 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:55,500 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:55,659 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:55,834 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:55,994 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:56,139 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:56,337 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:56,475 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:56,671 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:56,812 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:57,006 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:57,158 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:57,320 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:07:57,493 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:57,658 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:57,820 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:57,989 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:58,149 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:58,328 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:58,479 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:58,659 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:58,824 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:58,995 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:59,160 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:59,334 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:59,494 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:59,676 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:07:59,831 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:00,003 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:00,161 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:00,338 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:00,501 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:00,664 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:00,840 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:00,999 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:01,175 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:01,329 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:01,505 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:01,670 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:01,842 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:02,008 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:02,174 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:02,339 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:02,487 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:02,672 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:02,841 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:03,024 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:03,147 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:03,318 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:03,475 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:03,651 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:03,844 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:03,987 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:04,150 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:04,331 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:04,494 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:04,662 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:04,831 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:05,000 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:05,165 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:05,337 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:05,503 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:05,679 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:05,835 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:06,016 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:06,170 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:06,334 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:06,512 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:06,663 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:06,844 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:07,005 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:07,184 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:07,336 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:07,516 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:07,679 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:07,858 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:08,013 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:08,158 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:08,342 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:08,498 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:08,686 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:08,805 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:09,017 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:09,203 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:09,346 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:09,518 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:09,660 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:09,855 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:10,005 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:10,165 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:10,336 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:10,490 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:10,667 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:10,831 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:11,005 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:11,169 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:11,341 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:11,504 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:11,674 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:11,836 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:11,998 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:12,171 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:12,341 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:12,513 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:12,676 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:12,842 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:13,010 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:13,185 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:13,344 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:13,516 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:13,687 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:13,862 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:14,035 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:14,198 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:14,352 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:14,483 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:14,684 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:14,844 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:15,028 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:15,191 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:15,331 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:15,518 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:15,661 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:15,856 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:16,002 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:16,158 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:16,332 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:16,491 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:16,675 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:16,833 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:17,010 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:17,164 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:17,326 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:17,504 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:17,660 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:17,843 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:18,001 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:18,178 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:18,330 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:18,508 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:18,666 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:18,839 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:19,004 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:19,177 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:19,340 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:19,518 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:19,682 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:19,852 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:20,011 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:20,191 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:20,352 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:20,506 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:20,684 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:20,833 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:21,023 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:21,198 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:21,318 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:21,517 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:21,664 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:21,856 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:21,995 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:22,158 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:22,338 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:22,496 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:22,671 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:22,831 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:22,985 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:23,167 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:23,337 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:23,500 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:23,663 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:23,839 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:24,004 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:24,171 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:24,332 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-05 23:08:24,499 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:24,662 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:24,842 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:25,005 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:25,170 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:25,329 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:25,510 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:25,666 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:25,841 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:26,001 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:26,164 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:26,334 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:26,493 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:26,674 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:26,832 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:27,011 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:27,171 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:27,323 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:27,514 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:27,667 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:27,858 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:27,991 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:28,148 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:28,329 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:28,482 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:28,655 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:28,788 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:28,982 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:29,135 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:29,307 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:29,492 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:29,635 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:29,847 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:29,987 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:30,154 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:30,313 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:30,498 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:30,659 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:30,835 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:30,995 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:31,166 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:31,339 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:31,491 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:31,667 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:31,825 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:32,005 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:32,166 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:32,333 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:32,495 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:32,673 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:32,834 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:33,005 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:33,164 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:33,311 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:33,504 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:33,645 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:33,835 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:33,970 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:34,146 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:34,309 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:34,480 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:34,672 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:34,819 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:35,011 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:35,158 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:35,316 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:35,489 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:35,654 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:35,824 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:35,983 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:36,159 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:36,326 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:36,498 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:36,651 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:36,828 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:37,303 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:37,466 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:37,641 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:37,801 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:37,975 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:38,243 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:38,404 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:38,567 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:38,740 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:38,912 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:39,091 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:39,245 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:39,424 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:39,578 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:39,726 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:39,912 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:40,052 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:40,246 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:40,396 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:40,574 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:40,731 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:40,882 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:41,053 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:41,216 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:41,413 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:41,559 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:41,718 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:41,964 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:42,125 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:42,241 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:42,418 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:42,590 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:42,813 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:42,996 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:43,193 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:43,365 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:43,517 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:43,692 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:43,850 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:44,026 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:44,202 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:44,376 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:44,542 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:44,723 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:44,869 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:45,038 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:45,207 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:45,353 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:45,531 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:45,705 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:45,869 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:46,031 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:46,201 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:46,371 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:46,521 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:46,700 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:46,833 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:47,038 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:47,192 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:47,351 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:47,518 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:47,671 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:47,861 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:48,027 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:48,183 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:48,347 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:48,531 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:48,699 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:48,865 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:49,017 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:49,171 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:49,358 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:49,521 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:49,735 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:49,893 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:50,046 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:50,189 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:50,377 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:50,539 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:50,690 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:50,861 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:51,025 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:51,210 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:51,368 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:51,533 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:51,703 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:51,880 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:52,035 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:52,205 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:52,363 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:52,523 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:52,727 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:52,864 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:53,048 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:53,189 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:53,352 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:53,511 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:53,683 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:53,862 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:54,024 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:54,201 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:54,347 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:54,521 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:54,684 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:54,851 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:55,029 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:55,181 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:55,358 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:55,526 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:55,703 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:55,881 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:56,042 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:56,198 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:56,369 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:56,529 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:56,752 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:56,910 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:57,026 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:57,214 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:57,372 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:57,535 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:57,699 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:57,881 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:58,027 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:58,208 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:58,366 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:58,516 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:58,697 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:58,846 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:59,040 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:59,195 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:59,337 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:59,510 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:59,677 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:08:59,864 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:00,016 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:00,170 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:00,337 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:00,513 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:00,684 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:00,841 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:01,015 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:01,171 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:01,360 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:01,522 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:01,692 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:01,855 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:02,026 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:02,197 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:02,351 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:02,521 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:02,680 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:02,882 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:03,039 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:03,225 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:03,408 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:03,555 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:03,708 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:03,869 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:04,035 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:04,210 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:04,371 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:04,517 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:04,698 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:04,860 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:05,041 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:05,180 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:05,336 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:05,528 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:05,668 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:05,872 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:06,019 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:06,183 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:06,346 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:06,498 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:06,691 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:06,851 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:07,017 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:07,179 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:07,349 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:07,519 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:07,690 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:07,855 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:08,032 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:08,197 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:08,358 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:08,531 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:08,693 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:08,873 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:09,046 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:09,208 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:09,406 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:09,568 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:09,739 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:09,881 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:10,038 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:10,220 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:10,382 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:10,518 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:10,694 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:10,889 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:11,035 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:11,202 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:11,356 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:11,539 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:11,684 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:11,870 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:12,030 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:12,211 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:12,366 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:12,534 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:12,694 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:12,855 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:13,029 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:13,189 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:13,351 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:13,523 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:13,684 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:13,846 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:14,014 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:14,185 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:14,355 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:14,526 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:14,687 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:14,859 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:15,020 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:15,205 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:15,358 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:15,544 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:15,700 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:15,873 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:16,040 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:16,207 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:16,376 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:16,530 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:16,752 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:16,893 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:17,047 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:17,200 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:17,351 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:17,537 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:17,687 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:17,862 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:18,012 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:18,209 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:18,364 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:18,514 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:18,681 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:18,856 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:19,007 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:19,183 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:19,352 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:19,518 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:19,686 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:19,862 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:20,019 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:20,185 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:20,346 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:20,531 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:20,691 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:20,866 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:21,019 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:21,202 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:21,368 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:21,545 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:21,695 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:21,866 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:22,043 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:22,194 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:22,377 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:22,541 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:22,700 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:22,868 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:23,045 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:23,206 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:23,348 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:23,593 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:23,806 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:23,979 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:24,118 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:24,299 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:24,443 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:24,643 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:24,790 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:24,949 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:25,120 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:25,285 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:25,460 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:25,621 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:25,785 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:25,956 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:26,128 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:26,284 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:26,448 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:26,627 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:26,783 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:26,951 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:27,110 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:27,303 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:27,463 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:27,630 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:27,788 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:27,971 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:28,127 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:28,296 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:28,459 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:28,647 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:28,837 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:28,979 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:29,130 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:29,290 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:29,467 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:29,623 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:29,818 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:30,000 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:30,154 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:30,319 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:30,484 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:30,652 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:30,800 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:30,952 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:31,134 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:31,290 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:31,453 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:31,640 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:31,794 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:31,942 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:32,117 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:32,281 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:32,456 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:32,614 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:32,813 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:32,956 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:33,126 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:33,301 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:33,464 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:33,620 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:33,793 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:33,968 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:34,120 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:34,294 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:34,466 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:34,633 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:34,790 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:34,963 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:35,119 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:35,290 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:35,472 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:35,627 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:35,811 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:35,965 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:36,096 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:36,310 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:36,477 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:36,625 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:36,786 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:36,941 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:37,106 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:37,273 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:37,457 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:37,616 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:37,777 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:37,951 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:38,105 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:38,281 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:38,449 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:38,629 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:38,773 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:38,949 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:39,109 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:39,296 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:39,448 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:39,622 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:39,794 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:39,968 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:40,127 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:40,296 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:40,455 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:40,627 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:40,800 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:40,970 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:41,143 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:41,291 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:41,458 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:41,618 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:41,808 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:41,959 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:42,102 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:42,304 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:42,448 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:42,638 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:42,775 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:42,935 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:43,119 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:43,272 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:43,445 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:43,602 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:43,806 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:43,946 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:44,102 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:44,277 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:44,451 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:44,626 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:44,775 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:44,952 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:45,107 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:45,287 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:45,453 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:45,625 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:45,787 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:45,955 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:46,122 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:46,285 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:46,462 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:46,608 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:46,790 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:46,941 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:47,113 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:47,294 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:47,459 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:47,632 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:47,801 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:47,958 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:48,103 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:48,299 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:48,440 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:48,627 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:48,785 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:48,943 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:49,141 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:49,278 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:49,471 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:49,616 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:49,792 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:49,936 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:50,112 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:50,278 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:50,445 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:50,620 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:50,778 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:50,951 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:51,110 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:51,290 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:51,450 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:51,617 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:51,792 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:51,947 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:52,120 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:52,280 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:52,464 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:52,625 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:52,794 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:52,943 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:53,133 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:53,298 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:53,459 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:53,621 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:53,808 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:53,967 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:54,123 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:54,293 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:54,455 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:54,658 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:54,794 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:54,939 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:55,126 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:55,280 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:55,464 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:55,602 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:55,793 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:55,952 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:56,106 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:56,289 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:56,450 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:56,623 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:56,780 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:56,946 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:57,122 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:57,281 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:57,450 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:57,607 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:57,784 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:57,949 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:58,122 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:58,289 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:58,463 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:58,624 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:58,796 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:58,946 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:59,124 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:59,292 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:59,465 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:59,632 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:59,808 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:09:59,970 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:10:00,104 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:10:00,311 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:10:00,465 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:10:00,637 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:10:00,795 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:10:00,948 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:10:01,132 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:10:01,274 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:10:01,466 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:10:01,617 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:10:01,812 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:10:01,946 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:10:02,103 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:10:02,291 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:10:02,444 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:10:02,612 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:10:02,787 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:10:02,943 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:10:03,106 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:10:03,262 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:10:03,446 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:10:03,625 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:10:03,794 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:10:03,933 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:10:04,108 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:10:04,289 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:10:04,453 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:10:04,607 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:10:04,786 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:10:04,944 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:10:05,125 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:10:05,288 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:10:05,463 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:10:05,638 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:10:05,813 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:10:05,971 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:10:06,127 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:10:06,302 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:10:06,472 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:10:06,647 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:10:06,796 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:10:06,928 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:10:07,133 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:10:07,284 - face_recognizer - WARNING - No faces detected in image
+2026-02-05 23:10:07,465 - face_recognizer - WARNING - No faces detected in image
+2026-02-06 14:12:53,101 - __main__ - INFO - ======================================================================
+2026-02-06 14:12:53,104 - __main__ - INFO - Face Recognition Attendance System
+2026-02-06 14:12:53,104 - __main__ - INFO - ======================================================================
+2026-02-06 14:12:53,105 - attendance_system - INFO - No attendance file for today
+2026-02-06 14:12:53,149 - face_recognizer - INFO - Recognizer initialized with 24 encodings
+2026-02-06 14:12:53,149 - __main__ - INFO - Encodings loaded successfully
+2026-02-06 14:12:53,150 - __main__ - INFO - Starting camera (ID: 0)...
+2026-02-06 14:12:53,150 - __main__ - INFO - Press 'q' to quit, 's' to save frame, 'r' to reset attendance
+2026-02-06 14:12:55,262 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:12:55,427 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:12:55,603 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:12:55,754 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:12:55,944 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:12:56,092 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:12:56,268 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:12:56,433 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:12:56,603 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:12:56,766 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:12:56,938 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:12:57,104 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:12:57,272 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:12:57,426 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:12:57,591 - face_recognizer - WARNING - No faces detected in image
+2026-02-06 14:12:57,771 - face_recognizer - WARNING - No faces detected in image
+2026-02-06 14:12:57,925 - face_recognizer - WARNING - No faces detected in image
+2026-02-06 14:12:58,102 - face_recognizer - WARNING - No faces detected in image
+2026-02-06 14:12:58,264 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:12:58,411 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:12:58,602 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:12:58,753 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:12:58,938 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:12:59,087 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:12:59,271 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:12:59,422 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:12:59,577 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:12:59,758 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:12:59,917 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:13:00,073 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:13:00,236 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:13:00,406 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:13:00,581 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:13:00,741 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:13:00,917 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:13:01,084 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:13:01,244 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:13:01,438 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:13:01,574 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:13:01,782 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:01,919 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:02,117 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:02,233 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:02,412 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:02,616 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:02,745 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:02,952 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:13:03,083 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:13:03,287 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:13:03,420 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:13:03,573 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:13:03,755 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:13:03,913 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:13:04,073 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:13:04,247 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:13:04,406 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:13:04,586 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:04,741 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:13:04,923 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:05,083 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:05,254 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:05,409 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:05,586 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:05,776 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:13:05,915 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:13:06,092 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:06,281 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:13:06,418 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:06,586 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:06,777 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:13:06,937 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:07,083 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:13:07,279 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:07,433 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:07,583 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:07,783 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:13:07,929 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:13:08,094 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:13:08,284 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:13:08,426 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:13:08,589 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:08,775 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:13:08,940 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:13:09,083 - face_recognizer - WARNING - No faces detected in image
+2026-02-06 14:13:09,287 - face_recognizer - WARNING - No faces detected in image
+2026-02-06 14:13:09,431 - face_recognizer - WARNING - No faces detected in image
+2026-02-06 14:13:09,577 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:13:09,782 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:13:09,928 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:10,096 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:10,278 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:10,441 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:10,586 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:10,733 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:10,934 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:11,188 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:11,383 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:11,546 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:11,684 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:11,880 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:12,123 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:13:12,305 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:12,490 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:12,632 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:12,798 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:12,993 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:13,158 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:13,314 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:13,463 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:49,181 - __main__ - INFO - ======================================================================
+2026-02-06 14:13:49,182 - __main__ - INFO - Face Recognition Attendance System
+2026-02-06 14:13:49,182 - __main__ - INFO - ======================================================================
+2026-02-06 14:13:49,182 - attendance_system - INFO - No attendance file for today
+2026-02-06 14:13:49,184 - face_recognizer - INFO - Recognizer initialized with 24 encodings
+2026-02-06 14:13:49,184 - __main__ - INFO - Encodings loaded successfully
+2026-02-06 14:13:49,185 - __main__ - INFO - Starting camera (ID: 0)...
+2026-02-06 14:13:49,185 - __main__ - INFO - Press 'q' to quit, 's' to save frame, 'r' to reset attendance
+2026-02-06 14:13:50,776 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:50,827 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:13:51,019 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:13:51,164 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:13:51,317 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:51,504 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:51,674 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:51,817 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:13:52,003 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:52,162 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:52,314 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:13:52,474 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:52,657 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:52,657 - attendance_system - INFO - Marked attendance for 12412522 (ID: 2)
+2026-02-06 14:13:52,837 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:53,017 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:53,174 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:53,332 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:53,515 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:13:53,667 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:53,818 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:53,819 - attendance_system - INFO - Marked attendance for 12400795 (ID: 1)
+2026-02-06 14:13:53,981 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:54,165 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:54,331 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:54,476 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:54,679 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:54,827 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:55,014 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:55,178 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:55,304 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:55,486 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:55,670 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:55,832 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:55,979 - face_recognizer - WARNING - No faces detected in image
+2026-02-06 14:13:56,164 - face_recognizer - WARNING - No faces detected in image
+2026-02-06 14:13:56,327 - face_recognizer - WARNING - No faces detected in image
+2026-02-06 14:13:56,472 - face_recognizer - WARNING - No faces detected in image
+2026-02-06 14:13:56,677 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:13:56,821 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:13:56,987 - face_recognizer - WARNING - No faces detected in image
+2026-02-06 14:13:57,173 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:57,318 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:13:57,486 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:13:57,672 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:57,834 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:57,970 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:58,174 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:58,321 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:13:58,474 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:13:58,675 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:13:58,823 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:13:58,980 - face_recognizer - WARNING - No faces detected in image
+2026-02-06 14:13:59,176 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:13:59,337 - face_recognizer - WARNING - No faces detected in image
+2026-02-06 14:13:59,480 - face_recognizer - WARNING - No faces detected in image
+2026-02-06 14:13:59,645 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:13:59,828 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:13:59,979 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:14:00,187 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:14:00,321 - face_recognizer - WARNING - No faces detected in image
+2026-02-06 14:14:00,493 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:14:00,682 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:14:00,838 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:14:00,987 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:14:01,180 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:14:01,332 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:14:01,480 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:14:01,648 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:14:01,831 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:14:01,989 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:14:02,183 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:14:02,328 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:14:02,486 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:14:02,679 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:14:02,837 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:14:02,985 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:14:03,146 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:14:03,333 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:14:03,482 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:14:03,641 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:14:03,831 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:14:03,989 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:14:04,170 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:14:04,331 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:14:04,481 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:14:04,640 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:14:04,837 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:14:04,983 - face_recognizer - WARNING - No faces detected in image
+2026-02-06 14:14:05,144 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:14:05,335 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:14:05,496 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:14:05,641 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:14:05,846 - face_recognizer - WARNING - No faces detected in image
+2026-02-06 14:14:05,993 - face_recognizer - WARNING - No faces detected in image
+2026-02-06 14:14:06,198 - face_recognizer - WARNING - No faces detected in image
+2026-02-06 14:14:06,342 - face_recognizer - WARNING - No faces detected in image
+2026-02-06 14:14:06,484 - face_recognizer - WARNING - No faces detected in image
+2026-02-06 14:14:06,648 - face_recognizer - WARNING - No faces detected in image
+2026-02-06 14:14:06,840 - face_recognizer - WARNING - No faces detected in image
+2026-02-06 14:14:06,997 - face_recognizer - WARNING - No faces detected in image
+2026-02-06 14:14:07,140 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:14:07,361 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:14:07,496 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:14:07,638 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:14:07,852 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:14:07,988 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:14:08,154 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:14:08,344 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:14:08,511 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:14:08,650 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:14:08,841 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:14:09,001 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:14:09,138 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:14:09,296 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:14:09,494 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:14:09,666 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:14:09,943 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:14:10,103 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 14:14:10,254 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:14:10,396 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:14:10,596 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:14:10,853 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:14:11,042 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:14:11,198 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:14:11,348 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:14:11,564 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:14:11,709 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 14:14:11,837 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 15:45:48,511 - __main__ - INFO - ======================================================================
+2026-02-06 15:45:48,512 - __main__ - INFO - Face Recognition Attendance System - Training
+2026-02-06 15:45:48,512 - __main__ - INFO - ======================================================================
+2026-02-06 15:45:48,513 - face_encoder - INFO - Starting face encoding training...
+2026-02-06 15:45:48,513 - face_encoder - INFO - Processing person: 12400794
+2026-02-06 15:45:50,116 - face_encoder - INFO - Processed 11 images for 12400794
+2026-02-06 15:45:50,117 - face_encoder - INFO - Processing person: 12400795
+2026-02-06 15:45:50,956 - face_encoder - INFO - Processed 9 images for 12400795
+2026-02-06 15:45:50,957 - face_encoder - INFO - Processing person: 12412522
+2026-02-06 15:45:51,468 - face_encoder - INFO - Processed 4 images for 12412522
+2026-02-06 15:45:51,469 - face_encoder - INFO - Training complete!
+2026-02-06 15:45:51,469 - face_encoder - INFO - Valid persons: 3
+2026-02-06 15:45:51,469 - face_encoder - INFO - Total images processed: 24
+2026-02-06 15:45:51,470 - face_encoder - INFO - Total encodings generated: 24
+2026-02-06 15:45:51,473 - face_encoder - INFO - Encodings saved to C:\Users\meutk\OneDrive\Desktop\Face Recognition Attendance System\encodings\face_encodings.npy
+2026-02-06 15:45:51,473 - face_encoder - INFO - Labels saved to C:\Users\meutk\OneDrive\Desktop\Face Recognition Attendance System\encodings\labels.npy
+2026-02-06 15:45:51,473 - face_encoder - INFO - Person mapping saved to C:\Users\meutk\OneDrive\Desktop\Face Recognition Attendance System\encodings\person_mapping.json
+2026-02-06 15:45:51,474 - __main__ - INFO - 
+======================================================================
+2026-02-06 15:45:51,474 - __main__ - INFO - Training Summary:
+2026-02-06 15:45:51,475 - __main__ - INFO -   Total Encodings: 24
+2026-02-06 15:45:51,475 - __main__ - INFO -   Total Persons: 3
+2026-02-06 15:45:51,476 - __main__ - INFO -   Persons:
+2026-02-06 15:45:51,476 - __main__ - INFO -     12400794: 11 images
+2026-02-06 15:45:51,477 - __main__ - INFO -     12400795: 9 images
+2026-02-06 15:45:51,478 - __main__ - INFO -     12412522: 4 images
+2026-02-06 15:45:51,478 - __main__ - INFO - ======================================================================
+
+2026-02-06 15:49:00,769 - __main__ - INFO - ======================================================================
+2026-02-06 15:49:00,769 - __main__ - INFO - Face Recognition Attendance System - Training
+2026-02-06 15:49:00,769 - __main__ - INFO - ======================================================================
+2026-02-06 15:49:00,770 - face_encoder - INFO - Starting face encoding training...
+2026-02-06 15:49:00,771 - face_encoder - INFO - Processing person: 12400794
+2026-02-06 15:49:01,640 - face_encoder - INFO - Processed 11 images for 12400794
+2026-02-06 15:49:01,640 - face_encoder - INFO - Processing person: 12400795
+2026-02-06 15:49:02,118 - face_encoder - INFO - Processed 9 images for 12400795
+2026-02-06 15:49:02,119 - face_encoder - INFO - Processing person: 12412522
+2026-02-06 15:49:02,407 - face_encoder - INFO - Processed 4 images for 12412522
+2026-02-06 15:49:02,408 - face_encoder - INFO - Training complete!
+2026-02-06 15:49:02,408 - face_encoder - INFO - Valid persons: 3
+2026-02-06 15:49:02,408 - face_encoder - INFO - Total images processed: 24
+2026-02-06 15:49:02,408 - face_encoder - INFO - Total encodings generated: 24
+2026-02-06 15:49:02,411 - face_encoder - INFO - Encodings saved to C:\Users\meutk\OneDrive\Desktop\Face Recognition Attendance System\encodings\face_encodings.npy
+2026-02-06 15:49:02,411 - face_encoder - INFO - Labels saved to C:\Users\meutk\OneDrive\Desktop\Face Recognition Attendance System\encodings\labels.npy
+2026-02-06 15:49:02,411 - face_encoder - INFO - Person mapping saved to C:\Users\meutk\OneDrive\Desktop\Face Recognition Attendance System\encodings\person_mapping.json
+2026-02-06 15:49:02,411 - __main__ - INFO - 
+======================================================================
+2026-02-06 15:49:02,412 - __main__ - INFO - Training Summary:
+2026-02-06 15:49:02,412 - __main__ - INFO -   Total Encodings: 24
+2026-02-06 15:49:02,412 - __main__ - INFO -   Total Persons: 3
+2026-02-06 15:49:02,412 - __main__ - INFO -   Persons:
+2026-02-06 15:49:02,412 - __main__ - INFO -     12400794: 11 images
+2026-02-06 15:49:02,413 - __main__ - INFO -     12400795: 9 images
+2026-02-06 15:49:02,413 - __main__ - INFO -     12412522: 4 images
+2026-02-06 15:49:02,413 - __main__ - INFO - ======================================================================
+
+2026-02-06 15:50:23,443 - __main__ - INFO - ======================================================================
+2026-02-06 15:50:23,443 - __main__ - INFO - Face Recognition Attendance System
+2026-02-06 15:50:23,443 - __main__ - INFO - ======================================================================
+2026-02-06 15:50:23,444 - attendance_system - INFO - No attendance file for today
+2026-02-06 15:50:23,514 - face_recognizer - INFO - Recognizer initialized with 24 encodings
+2026-02-06 15:50:23,514 - __main__ - INFO - Encodings loaded successfully
+2026-02-06 15:50:23,514 - __main__ - INFO - Starting camera (ID: 0)...
+2026-02-06 15:50:23,514 - __main__ - INFO - Press 'q' to quit, 's' to save frame, 'r' to reset attendance
+2026-02-06 15:50:25,970 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 15:50:26,138 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 15:50:26,340 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 15:50:26,468 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 15:50:26,617 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 15:50:26,775 - face_recognizer - WARNING - No faces detected in image
+2026-02-06 15:50:26,958 - face_recognizer - WARNING - No faces detected in image
+2026-02-06 15:50:27,120 - face_recognizer - WARNING - No faces detected in image
+2026-02-06 15:50:27,310 - face_recognizer - WARNING - No faces detected in image
+2026-02-06 15:50:27,478 - face_recognizer - WARNING - No faces detected in image
+2026-02-06 15:50:27,614 - face_recognizer - WARNING - No faces detected in image
+2026-02-06 15:50:27,814 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 15:50:27,971 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 15:50:28,119 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 15:50:28,282 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 15:50:28,471 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 15:50:28,638 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 15:50:28,778 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 15:50:28,967 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 15:50:29,128 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 15:50:29,321 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 15:50:29,481 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 15:50:29,623 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 15:50:29,790 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 15:50:29,975 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 15:50:29,976 - attendance_system - INFO - Marked attendance for 12400795 (ID: 1)
+2026-02-06 15:50:30,119 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 15:50:30,284 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 15:50:30,479 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 15:50:30,634 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 15:50:30,778 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 15:50:30,979 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 15:50:31,130 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 15:50:31,278 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 15:50:31,485 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 15:50:31,624 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 15:50:31,787 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 15:50:31,976 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 15:50:32,134 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 15:50:32,281 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 15:50:32,493 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 15:50:32,627 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 15:50:32,781 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 15:50:32,986 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 15:50:33,127 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 15:50:33,286 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 15:50:33,483 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 15:50:33,640 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 15:50:33,785 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 15:50:33,971 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 15:50:34,133 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 15:50:34,284 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 15:50:34,484 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 15:50:34,631 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 15:50:34,786 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 15:50:34,982 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 15:50:35,123 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 15:50:35,294 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 15:50:35,474 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 15:50:35,633 - face_recognizer - WARNING - No faces detected in image
+2026-02-06 15:50:35,793 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 15:50:35,943 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 15:50:36,132 - face_recognizer - WARNING - No faces detected in image
+2026-02-06 15:50:36,276 - face_recognizer - WARNING - No faces detected in image
+2026-02-06 15:50:36,477 - face_recognizer - WARNING - No faces detected in image
+2026-02-06 15:50:36,626 - face_recognizer - WARNING - No faces detected in image
+2026-02-06 15:50:36,784 - face_recognizer - WARNING - No faces detected in image
+2026-02-06 15:50:36,974 - face_recognizer - WARNING - No faces detected in image
+2026-02-06 15:50:37,137 - face_recognizer - WARNING - No faces detected in image
+2026-02-06 15:50:37,286 - face_recognizer - WARNING - No faces detected in image
+2026-02-06 15:50:37,430 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 15:50:37,631 - face_recognizer - WARNING - No faces detected in image
+2026-02-06 15:50:37,783 - face_recognizer - WARNING - No faces detected in image
+2026-02-06 15:50:37,942 - face_recognizer - WARNING - No faces detected in image
+2026-02-06 15:50:38,131 - face_recognizer - WARNING - No faces detected in image
+2026-02-06 15:50:38,295 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 15:50:38,480 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 15:50:38,644 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 15:50:38,791 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 15:50:38,999 - face_recognizer - WARNING - No faces detected in image
+2026-02-06 15:50:39,140 - face_recognizer - WARNING - No faces detected in image
+2026-02-06 15:50:39,285 - face_recognizer - WARNING - No faces detected in image
+2026-02-06 15:50:39,449 - face_recognizer - WARNING - No faces detected in image
+2026-02-06 15:50:39,634 - face_recognizer - WARNING - No faces detected in image
+2026-02-06 15:50:39,797 - face_recognizer - WARNING - No faces detected in image
+2026-02-06 15:50:39,943 - face_recognizer - WARNING - No faces detected in image
+2026-02-06 15:50:40,145 - face_recognizer - WARNING - No faces detected in image
+2026-02-06 15:50:40,291 - face_recognizer - WARNING - No faces detected in image
+2026-02-06 15:50:40,481 - face_recognizer - WARNING - No faces detected in image
+2026-02-06 15:50:40,652 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 15:50:40,791 - face_recognizer - WARNING - No faces detected in image
+2026-02-06 15:50:40,956 - face_recognizer - WARNING - No faces detected in image
+2026-02-06 15:50:41,146 - face_recognizer - WARNING - No faces detected in image
+2026-02-06 15:50:41,309 - face_recognizer - WARNING - No faces detected in image
+2026-02-06 15:50:41,454 - face_recognizer - WARNING - No faces detected in image
+2026-02-06 15:50:41,638 - face_recognizer - WARNING - No faces detected in image
+2026-02-06 15:50:41,802 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 15:50:42,039 - face_recognizer - WARNING - No faces detected in image
+2026-02-06 15:50:42,244 - face_recognizer - WARNING - No faces detected in image
+2026-02-06 15:50:42,615 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 15:50:42,746 - face_recognizer - INFO - Recognized 2 faces in image
+2026-02-06 15:50:42,951 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 15:50:43,101 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 15:50:43,262 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 15:50:43,451 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 15:50:43,608 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 15:50:43,761 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 15:50:43,977 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 15:50:44,130 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 15:50:44,278 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-06 15:50:44,410 - face_recognizer - INFO - Recognized 1 faces in image
+2026-02-07 20:24:33,486 - __main__ - INFO - ======================================================================
+2026-02-07 20:24:33,487 - __main__ - INFO - Face Recognition Attendance System - Training
+2026-02-07 20:24:33,487 - __main__ - INFO - ======================================================================
+2026-02-07 20:24:33,487 - face_encoder - INFO - FaceEncoder initialized with model=large, jitters=5
+2026-02-07 20:24:33,488 - face_encoder - INFO - ======================================================================
+2026-02-07 20:24:33,488 - face_encoder - INFO - Starting DEEP LEARNING face encoding training...
+2026-02-07 20:24:33,488 - face_encoder - INFO - Detection model: hog
+2026-02-07 20:24:33,489 - face_encoder - INFO - Encoding model: large
+2026-02-07 20:24:33,489 - face_encoder - INFO - Jitters: 5
+2026-02-07 20:24:33,489 - face_encoder - INFO - Data augmentation: True
+2026-02-07 20:24:33,489 - face_encoder - INFO - ======================================================================
+2026-02-07 20:24:33,490 - face_encoder - INFO - Processing person: 12400794
+2026-02-07 20:26:07,046 - face_encoder - INFO - Processed 11 images for 12400794 (66 total encodings)
+2026-02-07 20:26:07,047 - face_encoder - INFO - Processing person: 12400795
+2026-02-07 20:27:25,286 - face_encoder - INFO - Processed 9 images for 12400795 (54 total encodings)
+2026-02-07 20:27:25,287 - face_encoder - INFO - Processing person: 12412522
+2026-02-07 20:27:59,507 - face_encoder - INFO - Processed 4 images for 12412522 (24 total encodings)
+2026-02-07 20:27:59,508 - face_encoder - INFO - ======================================================================
+2026-02-07 20:27:59,508 - face_encoder - INFO - Training complete!
+2026-02-07 20:27:59,508 - face_encoder - INFO - Valid persons: 3
+2026-02-07 20:27:59,508 - face_encoder - INFO - Total images processed: 24
+2026-02-07 20:27:59,509 - face_encoder - INFO - Total encodings generated: 144
+2026-02-07 20:27:59,509 - face_encoder - INFO - Avg encodings per person: 48.0
+2026-02-07 20:27:59,509 - face_encoder - INFO - ======================================================================
+2026-02-07 20:27:59,512 - face_encoder - INFO - Encodings saved to C:\Users\meutk\OneDrive\Desktop\Face Recognition Attendance System\encodings\face_encodings.npy
+2026-02-07 20:27:59,512 - face_encoder - INFO - Labels saved to C:\Users\meutk\OneDrive\Desktop\Face Recognition Attendance System\encodings\labels.npy
+2026-02-07 20:27:59,512 - face_encoder - INFO - Person mapping saved to C:\Users\meutk\OneDrive\Desktop\Face Recognition Attendance System\encodings\person_mapping.json
+2026-02-07 20:27:59,513 - __main__ - INFO - 
+======================================================================
+2026-02-07 20:27:59,513 - __main__ - INFO - Training Summary:
+2026-02-07 20:27:59,513 - __main__ - INFO -   Total Encodings: 144
+2026-02-07 20:27:59,513 - __main__ - INFO -   Total Persons: 3
+2026-02-07 20:27:59,513 - __main__ - INFO -   Persons:
+2026-02-07 20:27:59,517 - __main__ - INFO -     12400794: 11 images
+2026-02-07 20:27:59,517 - __main__ - INFO -     12400795: 9 images
+2026-02-07 20:27:59,517 - __main__ - INFO -     12412522: 4 images
+2026-02-07 20:27:59,517 - __main__ - INFO - ======================================================================
+
+2026-02-07 20:51:18,636 - __main__ - INFO - ======================================================================
+2026-02-07 20:51:18,636 - __main__ - INFO - Face Recognition Attendance System
+2026-02-07 20:51:18,637 - __main__ - INFO - ======================================================================
+2026-02-07 20:51:18,637 - attendance_system - INFO - No attendance file for today
+2026-02-07 20:51:18,695 - face_recognizer - INFO - FaceRecognizer initialized with 144 encodings, threshold=0.5, KNN=True
+2026-02-07 20:51:18,696 - __main__ - INFO - Encodings loaded successfully
+2026-02-07 20:51:18,696 - __main__ - INFO - 
+======================================================================
+2026-02-07 20:51:18,697 - __main__ - INFO - Daily Attendance Summary
+2026-02-07 20:51:18,697 - __main__ - INFO - ======================================================================
+2026-02-07 20:51:18,697 - __main__ - INFO - Date: 2026-02-07
+2026-02-07 20:51:18,698 - __main__ - INFO - Total Unique Persons: 0
+2026-02-07 20:51:18,698 - __main__ - INFO - Total Entries: 0
+2026-02-07 20:51:18,698 - __main__ - INFO - 
+No attendance records yet.
+2026-02-07 20:51:18,698 - __main__ - INFO - ======================================================================
+
+2026-02-07 20:51:37,487 - __main__ - INFO - ======================================================================
+2026-02-07 20:51:37,488 - __main__ - INFO - Face Recognition Attendance System
+2026-02-07 20:51:37,488 - __main__ - INFO - ======================================================================
+2026-02-07 20:51:37,489 - attendance_system - INFO - No attendance file for today
+2026-02-07 20:51:37,490 - face_recognizer - INFO - FaceRecognizer initialized with 144 encodings, threshold=0.5, KNN=True
+2026-02-07 20:51:37,491 - __main__ - INFO - Encodings loaded successfully
+2026-02-07 20:51:37,491 - __main__ - INFO - Starting camera (ID: 0)...
+2026-02-07 20:51:37,492 - __main__ - INFO - Press 'q' to quit, 's' to save frame, 'r' to reset attendance
+2026-02-07 20:51:45,365 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-02-07 20:51:45,366 - attendance_system - INFO - Marked attendance for 12412522 (ID: 2)
+2026-02-07 20:51:47,979 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-02-07 20:51:50,557 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-02-07 20:51:53,619 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-02-07 20:51:53,620 - attendance_system - INFO - Marked attendance for 12400795 (ID: 1)
+2026-02-07 20:51:56,228 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-02-07 20:51:58,759 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-02-07 20:52:02,059 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-02-07 20:52:02,059 - attendance_system - INFO - Marked attendance for 12400794 (ID: 0)
+2026-02-07 20:52:04,603 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-02-07 20:52:07,155 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-02-07 20:52:09,647 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-02-07 20:52:12,202 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-02-07 20:52:14,783 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-02-07 20:52:19,803 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-02-07 20:52:22,674 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-02-07 20:52:25,246 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-02-07 20:52:30,762 - face_recognizer - INFO - Recognized 0/1 faces in image
+2026-02-07 20:52:35,240 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-02-07 20:52:37,775 - face_recognizer - INFO - Recognized 0/1 faces in image
+2026-02-07 20:52:41,292 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-02-07 20:52:43,777 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-02-07 20:52:46,285 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-02-07 20:52:48,845 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-02-07 20:52:51,338 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-02-07 20:52:53,956 - face_recognizer - INFO - Recognized 0/1 faces in image
+2026-02-07 20:52:56,472 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-02-07 20:52:59,157 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-02-07 21:07:09,893 - attendance_system - INFO - No attendance file for today
+2026-02-07 21:07:09,896 - face_recognizer - INFO - FaceRecognizer initialized with 144 encodings, threshold=0.5, KNN=True
+2026-02-07 21:07:09,896 - __main__ - INFO - Face recognizer loaded successfully
+2026-02-07 21:07:09,896 - face_encoder - INFO - FaceEncoder initialized with model=large, jitters=5
+2026-02-07 21:07:09,897 - __main__ - INFO - Face encoder initialized
+2026-02-07 21:07:10,262 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.36.33.47:5000
+2026-02-07 21:07:10,262 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-07 21:07:10,266 - werkzeug - INFO -  * Restarting with stat
+2026-02-07 21:07:13,256 - attendance_system - INFO - No attendance file for today
+2026-02-07 21:07:13,259 - face_recognizer - INFO - FaceRecognizer initialized with 144 encodings, threshold=0.5, KNN=True
+2026-02-07 21:07:13,259 - __main__ - INFO - Face recognizer loaded successfully
+2026-02-07 21:07:13,260 - face_encoder - INFO - FaceEncoder initialized with model=large, jitters=5
+2026-02-07 21:07:13,260 - __main__ - INFO - Face encoder initialized
+2026-02-07 21:07:13,384 - werkzeug - WARNING -  * Debugger is active!
+2026-02-07 21:07:13,393 - werkzeug - INFO -  * Debugger PIN: 134-023-995
+2026-02-07 21:08:08,546 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:08:08] "GET / HTTP/1.1" 200 -
+2026-02-07 21:08:08,652 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:08:08] "GET /css/styles.css HTTP/1.1" 200 -
+2026-02-07 21:08:08,655 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:08:08] "GET /js/main.js HTTP/1.1" 200 -
+2026-02-07 21:08:09,815 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:08:09] "GET /api/attendance/summary HTTP/1.1" 200 -
+2026-02-07 21:08:09,816 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:08:09] "GET /api/stats HTTP/1.1" 200 -
+2026-02-07 21:08:09,876 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:08:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-02-07 21:08:11,516 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:08:11] "GET /camera.html HTTP/1.1" 200 -
+2026-02-07 21:08:11,821 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:08:11] "[36mGET /css/styles.css HTTP/1.1[0m" 304 -
+2026-02-07 21:08:11,949 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:08:11] "[36mGET /js/main.js HTTP/1.1[0m" 304 -
+2026-02-07 21:08:12,309 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:08:12] "GET /api/attendance/summary HTTP/1.1" 200 -
+2026-02-07 21:08:22,961 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:08:22] "GET /api/attendance/summary HTTP/1.1" 200 -
+2026-02-07 21:08:28,824 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:08:28] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-07 21:08:31,071 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:08:31] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-07 21:08:38,713 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-02-07 21:08:38,716 - attendance_system - INFO - Marked attendance for 12412522 (ID: 2)
+2026-02-07 21:08:38,725 - attendance_system - INFO - Saved 1 attendance records to C:\Users\meutk\OneDrive\Desktop\Face Recognition Attendance System\attendance_records\attendance_2026-02-07.csv
+2026-02-07 21:08:38,728 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:08:38] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-07 21:08:39,055 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:08:39] "GET /api/attendance/summary HTTP/1.1" 200 -
+2026-02-07 21:08:50,843 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-02-07 21:08:50,843 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-02-07 21:08:50,858 - attendance_system - INFO - Saved 1 attendance records to C:\Users\meutk\OneDrive\Desktop\Face Recognition Attendance System\attendance_records\attendance_2026-02-07.csv
+2026-02-07 21:08:50,859 - attendance_system - INFO - Saved 1 attendance records to C:\Users\meutk\OneDrive\Desktop\Face Recognition Attendance System\attendance_records\attendance_2026-02-07.csv
+2026-02-07 21:08:50,861 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:08:50] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-07 21:08:50,869 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:08:50] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-07 21:09:08,683 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-02-07 21:09:08,684 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-02-07 21:09:08,685 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-02-07 21:09:08,686 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-02-07 21:09:08,690 - attendance_system - INFO - Saved 1 attendance records to C:\Users\meutk\OneDrive\Desktop\Face Recognition Attendance System\attendance_records\attendance_2026-02-07.csv
+2026-02-07 21:09:08,692 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:09:08] "GET /index.html HTTP/1.1" 200 -
+2026-02-07 21:09:08,694 - attendance_system - INFO - Saved 1 attendance records to C:\Users\meutk\OneDrive\Desktop\Face Recognition Attendance System\attendance_records\attendance_2026-02-07.csv
+2026-02-07 21:09:08,696 - attendance_system - INFO - Saved 1 attendance records to C:\Users\meutk\OneDrive\Desktop\Face Recognition Attendance System\attendance_records\attendance_2026-02-07.csv
+2026-02-07 21:09:08,699 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:09:08] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-07 21:09:08,700 - attendance_system - INFO - Saved 1 attendance records to C:\Users\meutk\OneDrive\Desktop\Face Recognition Attendance System\attendance_records\attendance_2026-02-07.csv
+2026-02-07 21:09:08,701 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:09:08] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-07 21:09:08,704 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:09:08] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-07 21:09:08,707 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:09:08] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-07 21:09:09,129 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:09:09] "[36mGET /css/styles.css HTTP/1.1[0m" 304 -
+2026-02-07 21:09:09,132 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:09:09] "[36mGET /js/main.js HTTP/1.1[0m" 304 -
+2026-02-07 21:09:09,367 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:09:09] "GET /api/stats HTTP/1.1" 200 -
+2026-02-07 21:09:09,466 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:09:09] "GET /api/attendance/summary HTTP/1.1" 200 -
+2026-02-07 21:09:13,945 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:09:13] "GET /enroll.html HTTP/1.1" 200 -
+2026-02-07 21:09:14,260 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:09:14] "[36mGET /css/styles.css HTTP/1.1[0m" 304 -
+2026-02-07 21:09:14,354 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:09:14] "[36mGET /js/main.js HTTP/1.1[0m" 304 -
+2026-02-07 21:11:47,857 - __main__ - INFO - Training encoder with new person: Sameer
+2026-02-07 21:11:47,858 - face_encoder - INFO - ======================================================================
+2026-02-07 21:11:47,859 - face_encoder - INFO - Starting DEEP LEARNING face encoding training...
+2026-02-07 21:11:47,860 - face_encoder - INFO - Detection model: hog
+2026-02-07 21:11:47,862 - face_encoder - INFO - Encoding model: large
+2026-02-07 21:11:47,863 - face_encoder - INFO - Jitters: 5
+2026-02-07 21:11:47,863 - face_encoder - INFO - Data augmentation: True
+2026-02-07 21:11:47,864 - face_encoder - INFO - ======================================================================
+2026-02-07 21:11:47,868 - face_encoder - INFO - Processing person: 12400794
+2026-02-07 21:13:52,702 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:13:52] "[36mGET / HTTP/1.1[0m" 304 -
+2026-02-07 21:13:53,187 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:13:53] "[36mGET /css/styles.css HTTP/1.1[0m" 304 -
+2026-02-07 21:13:53,198 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:13:53] "[36mGET /js/main.js HTTP/1.1[0m" 304 -
+2026-02-07 21:13:53,574 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:13:53] "GET /api/attendance/summary HTTP/1.1" 200 -
+2026-02-07 21:13:53,577 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:13:53] "GET /api/stats HTTP/1.1" 200 -
+2026-02-07 21:14:28,259 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:14:28] "GET /api/attendance/summary HTTP/1.1" 200 -
+2026-02-07 21:14:28,261 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:14:28] "GET /api/stats HTTP/1.1" 200 -
+2026-02-07 21:14:39,370 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:14:39] "[36mGET /camera.html HTTP/1.1[0m" 304 -
+2026-02-07 21:14:39,498 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:14:39] "[36mGET /css/styles.css HTTP/1.1[0m" 304 -
+2026-02-07 21:14:39,501 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:14:39] "[36mGET /js/main.js HTTP/1.1[0m" 304 -
+2026-02-07 21:14:51,904 - attendance_system - INFO - Loaded 1 person records
+2026-02-07 21:14:51,906 - face_recognizer - INFO - FaceRecognizer initialized with 144 encodings, threshold=0.5, KNN=True
+2026-02-07 21:14:51,907 - __main__ - INFO - Face recognizer loaded successfully
+2026-02-07 21:14:51,907 - face_encoder - INFO - FaceEncoder initialized with model=large, jitters=5
+2026-02-07 21:14:51,907 - __main__ - INFO - Face encoder initialized
+2026-02-07 21:14:51,998 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.36.33.47:5000
+2026-02-07 21:14:51,998 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-07 21:14:52,001 - werkzeug - INFO -  * Restarting with stat
+2026-02-07 21:14:54,755 - attendance_system - INFO - Loaded 1 person records
+2026-02-07 21:14:54,757 - face_recognizer - INFO - FaceRecognizer initialized with 144 encodings, threshold=0.5, KNN=True
+2026-02-07 21:14:54,758 - __main__ - INFO - Face recognizer loaded successfully
+2026-02-07 21:14:54,759 - face_encoder - INFO - FaceEncoder initialized with model=large, jitters=5
+2026-02-07 21:14:54,759 - __main__ - INFO - Face encoder initialized
+2026-02-07 21:14:54,825 - werkzeug - WARNING -  * Debugger is active!
+2026-02-07 21:14:54,832 - werkzeug - INFO -  * Debugger PIN: 134-023-995
+2026-02-07 21:16:23,281 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:16:23] "[36mGET / HTTP/1.1[0m" 304 -
+2026-02-07 21:16:23,359 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:16:23] "[36mGET /css/styles.css HTTP/1.1[0m" 304 -
+2026-02-07 21:16:23,361 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:16:23] "[36mGET /js/main.js HTTP/1.1[0m" 304 -
+2026-02-07 21:16:24,067 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:16:24] "GET /api/attendance/summary HTTP/1.1" 200 -
+2026-02-07 21:16:24,070 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:16:24] "GET /api/stats HTTP/1.1" 200 -
+2026-02-07 21:16:42,098 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:16:42] "GET /attendance.html HTTP/1.1" 200 -
+2026-02-07 21:16:42,409 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:16:42] "[36mGET /css/styles.css HTTP/1.1[0m" 304 -
+2026-02-07 21:16:42,511 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:16:42] "[36mGET /js/main.js HTTP/1.1[0m" 304 -
+2026-02-07 21:16:42,838 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:16:42] "GET /api/attendance?date=2026-02-07 HTTP/1.1" 200 -
+2026-02-07 21:16:42,850 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:16:42] "GET /api/stats HTTP/1.1" 200 -
+2026-02-07 21:16:56,698 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:16:56] "[36mGET /index.html HTTP/1.1[0m" 304 -
+2026-02-07 21:16:57,004 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:16:57] "[36mGET /css/styles.css HTTP/1.1[0m" 304 -
+2026-02-07 21:16:57,084 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:16:57] "[36mGET /js/main.js HTTP/1.1[0m" 304 -
+2026-02-07 21:16:57,421 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:16:57] "GET /api/attendance/summary HTTP/1.1" 200 -
+2026-02-07 21:16:57,423 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:16:57] "GET /api/stats HTTP/1.1" 200 -
+2026-02-07 21:17:27,120 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:17:27] "GET /api/stats HTTP/1.1" 200 -
+2026-02-07 21:17:27,437 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:17:27] "GET /api/attendance/summary HTTP/1.1" 200 -
+2026-02-07 21:17:57,414 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:17:57] "GET /api/attendance/summary HTTP/1.1" 200 -
+2026-02-07 21:17:57,415 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:17:57] "GET /api/stats HTTP/1.1" 200 -
+2026-02-07 21:18:27,115 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:18:27] "GET /api/stats HTTP/1.1" 200 -
+2026-02-07 21:18:27,424 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:18:27] "GET /api/attendance/summary HTTP/1.1" 200 -
+2026-02-07 21:18:29,388 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:18:29] "[36mGET /enroll.html HTTP/1.1[0m" 304 -
+2026-02-07 21:18:29,564 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:18:29] "[36mGET /css/styles.css HTTP/1.1[0m" 304 -
+2026-02-07 21:18:29,643 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:18:29] "[36mGET /js/main.js HTTP/1.1[0m" 304 -
+2026-02-07 21:20:01,533 - face_recognizer - INFO - FaceRecognizer initialized with 149 encodings, threshold=0.5, KNN=True
+2026-02-07 21:20:01,535 - __main__ - INFO - Face recognizer loaded successfully
+2026-02-07 21:20:01,536 - __main__ - INFO - Enrolled Himanshu with 5 encodings (fast mode)
+2026-02-07 21:20:01,540 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:20:01] "POST /api/enroll HTTP/1.1" 200 -
+2026-02-07 21:20:13,748 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:20:13] "[36mGET /index.html HTTP/1.1[0m" 304 -
+2026-02-07 21:20:13,950 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:20:13] "[36mGET /css/styles.css HTTP/1.1[0m" 304 -
+2026-02-07 21:20:14,004 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:20:14] "[36mGET /js/main.js HTTP/1.1[0m" 304 -
+2026-02-07 21:20:14,136 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:20:14] "GET /api/stats HTTP/1.1" 200 -
+2026-02-07 21:20:14,337 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:20:14] "GET /api/attendance/summary HTTP/1.1" 200 -
+2026-02-07 21:20:15,235 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:20:15] "[36mGET /camera.html HTTP/1.1[0m" 304 -
+2026-02-07 21:20:15,553 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:20:15] "[36mGET /css/styles.css HTTP/1.1[0m" 304 -
+2026-02-07 21:20:15,661 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:20:15] "[36mGET /js/main.js HTTP/1.1[0m" 304 -
+2026-02-07 21:20:15,988 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:20:15] "GET /api/attendance/summary HTTP/1.1" 200 -
+2026-02-07 21:20:20,302 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:20:20] "GET /api/attendance/summary HTTP/1.1" 200 -
+2026-02-07 21:20:30,980 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-02-07 21:20:30,986 - attendance_system - INFO - Saved 1 attendance records to C:\Users\meutk\OneDrive\Desktop\Face Recognition Attendance System\attendance_records\attendance_2026-02-07.csv
+2026-02-07 21:20:30,994 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:20:30] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-07 21:20:33,187 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:20:33] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-07 21:20:33,277 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:20:33] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-07 21:20:34,344 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:20:34] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-07 21:20:34,759 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:20:34] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-07 21:20:42,192 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-02-07 21:20:42,202 - attendance_system - INFO - Saved 1 attendance records to C:\Users\meutk\OneDrive\Desktop\Face Recognition Attendance System\attendance_records\attendance_2026-02-07.csv
+2026-02-07 21:20:42,206 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:20:42] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-07 21:20:44,330 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:20:44] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-07 21:20:44,357 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:20:44] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-07 21:20:44,372 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:20:44] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-07 21:20:44,434 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:20:44] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-07 21:20:46,443 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:20:46] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-07 21:20:49,293 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:20:49] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-07 21:20:57,058 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-02-07 21:20:57,067 - attendance_system - INFO - Saved 1 attendance records to C:\Users\meutk\OneDrive\Desktop\Face Recognition Attendance System\attendance_records\attendance_2026-02-07.csv
+2026-02-07 21:20:57,069 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:20:57] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-07 21:20:59,123 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:20:59] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-07 21:20:59,160 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:20:59] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-07 21:21:01,342 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:21:01] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-07 21:21:08,994 - face_recognizer - INFO - Recognized 0/1 faces in image
+2026-02-07 21:21:09,005 - attendance_system - INFO - Saved 1 attendance records to C:\Users\meutk\OneDrive\Desktop\Face Recognition Attendance System\attendance_records\attendance_2026-02-07.csv
+2026-02-07 21:21:09,007 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:21:09] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-07 21:21:21,139 - face_recognizer - INFO - Recognized 0/1 faces in image
+2026-02-07 21:21:21,140 - face_recognizer - INFO - Recognized 0/1 faces in image
+2026-02-07 21:21:21,147 - attendance_system - INFO - Saved 1 attendance records to C:\Users\meutk\OneDrive\Desktop\Face Recognition Attendance System\attendance_records\attendance_2026-02-07.csv
+2026-02-07 21:21:21,150 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:21:21] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-07 21:21:21,154 - attendance_system - INFO - Saved 1 attendance records to C:\Users\meutk\OneDrive\Desktop\Face Recognition Attendance System\attendance_records\attendance_2026-02-07.csv
+2026-02-07 21:21:21,160 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:21:21] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-07 21:21:23,295 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:21:23] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-07 21:21:23,341 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:21:23] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-07 21:21:23,343 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:21:23] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-07 21:21:23,358 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:21:23] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-07 21:21:25,576 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:21:25] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-07 21:21:32,660 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-02-07 21:21:32,663 - attendance_system - INFO - Marked attendance for Himanshu (ID: 3)
+2026-02-07 21:21:32,669 - attendance_system - INFO - Saved 2 attendance records to C:\Users\meutk\OneDrive\Desktop\Face Recognition Attendance System\attendance_records\attendance_2026-02-07.csv
+2026-02-07 21:21:32,671 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:21:32] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-07 21:21:32,995 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:21:32] "GET /api/attendance/summary HTTP/1.1" 200 -
+2026-02-07 21:21:44,817 - face_recognizer - INFO - Recognized 0/1 faces in image
+2026-02-07 21:21:44,821 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-02-07 21:21:44,826 - attendance_system - INFO - Saved 2 attendance records to C:\Users\meutk\OneDrive\Desktop\Face Recognition Attendance System\attendance_records\attendance_2026-02-07.csv
+2026-02-07 21:21:44,834 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:21:44] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-07 21:21:44,834 - attendance_system - INFO - Saved 2 attendance records to C:\Users\meutk\OneDrive\Desktop\Face Recognition Attendance System\attendance_records\attendance_2026-02-07.csv
+2026-02-07 21:21:44,840 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:21:44] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-07 21:21:46,287 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:21:46] "[36mGET /index.html HTTP/1.1[0m" 304 -
+2026-02-07 21:21:46,675 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:21:46] "[36mGET /css/styles.css HTTP/1.1[0m" 304 -
+2026-02-07 21:21:46,678 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:21:46] "[36mGET /js/main.js HTTP/1.1[0m" 304 -
+2026-02-07 21:21:46,765 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:21:46] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-07 21:21:46,904 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:21:46] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-07 21:21:46,934 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:21:46] "GET /api/stats HTTP/1.1" 200 -
+2026-02-07 21:21:46,947 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:21:46] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-07 21:21:47,011 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:21:47] "GET /api/attendance/summary HTTP/1.1" 200 -
+2026-02-07 21:21:47,357 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:21:47] "[36mGET /attendance.html HTTP/1.1[0m" 304 -
+2026-02-07 21:21:47,666 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:21:47] "[36mGET /css/styles.css HTTP/1.1[0m" 304 -
+2026-02-07 21:21:47,776 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:21:47] "[36mGET /js/main.js HTTP/1.1[0m" 304 -
+2026-02-07 21:21:48,099 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:21:48] "GET /api/attendance?date=2026-02-07 HTTP/1.1" 200 -
+2026-02-07 21:21:48,107 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:21:48] "GET /api/stats HTTP/1.1" 200 -
+2026-02-07 21:23:03,279 - attendance_system - INFO - Loaded 2 person records
+2026-02-07 21:23:03,281 - face_recognizer - INFO - FaceRecognizer initialized with 149 encodings, threshold=0.5, KNN=True
+2026-02-07 21:23:03,282 - __main__ - INFO - Face recognizer loaded successfully
+2026-02-07 21:23:03,282 - face_encoder - INFO - FaceEncoder initialized with model=large, jitters=5
+2026-02-07 21:23:03,282 - __main__ - INFO - Face encoder initialized
+2026-02-07 21:23:03,377 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.36.33.47:5000
+2026-02-07 21:23:03,377 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-07 21:23:03,380 - werkzeug - INFO -  * Restarting with stat
+2026-02-07 21:23:05,671 - attendance_system - INFO - Loaded 2 person records
+2026-02-07 21:23:05,673 - face_recognizer - INFO - FaceRecognizer initialized with 149 encodings, threshold=0.5, KNN=True
+2026-02-07 21:23:05,673 - __main__ - INFO - Face recognizer loaded successfully
+2026-02-07 21:23:05,673 - face_encoder - INFO - FaceEncoder initialized with model=large, jitters=5
+2026-02-07 21:23:05,673 - __main__ - INFO - Face encoder initialized
+2026-02-07 21:23:05,745 - werkzeug - WARNING -  * Debugger is active!
+2026-02-07 21:23:05,749 - werkzeug - INFO -  * Debugger PIN: 134-023-995
+2026-02-07 21:23:11,803 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:23:11] "[36mGET / HTTP/1.1[0m" 304 -
+2026-02-07 21:23:11,895 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:23:11] "[36mGET /css/styles.css HTTP/1.1[0m" 304 -
+2026-02-07 21:23:11,895 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:23:11] "[36mGET /js/main.js HTTP/1.1[0m" 304 -
+2026-02-07 21:23:12,503 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:23:12] "GET /api/attendance/summary HTTP/1.1" 200 -
+2026-02-07 21:23:12,506 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:23:12] "GET /api/stats HTTP/1.1" 200 -
+2026-02-07 21:23:12,656 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:23:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-02-07 21:23:23,018 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:23:23] "[36mGET /attendance.html HTTP/1.1[0m" 304 -
+2026-02-07 21:23:23,344 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:23:23] "[36mGET /css/styles.css HTTP/1.1[0m" 304 -
+2026-02-07 21:23:23,346 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:23:23] "[36mGET /js/main.js HTTP/1.1[0m" 304 -
+2026-02-07 21:23:23,594 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:23:23] "GET /api/attendance?date=2026-02-07 HTTP/1.1" 200 -
+2026-02-07 21:23:23,735 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:23:23] "GET /api/stats HTTP/1.1" 200 -
+2026-02-07 21:23:28,409 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:23:28] "[36mGET /index.html HTTP/1.1[0m" 304 -
+2026-02-07 21:23:28,600 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:23:28] "[36mGET /css/styles.css HTTP/1.1[0m" 304 -
+2026-02-07 21:23:28,678 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:23:28] "[36mGET /js/main.js HTTP/1.1[0m" 304 -
+2026-02-07 21:23:28,799 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:23:28] "GET /api/stats HTTP/1.1" 200 -
+2026-02-07 21:23:29,009 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 21:23:29] "GET /api/attendance/summary HTTP/1.1" 200 -
+2026-02-07 22:37:33,348 - attendance_system - INFO - Loaded 2 person records
+2026-02-07 22:37:33,398 - face_recognizer - INFO - FaceRecognizer initialized with 149 encodings, threshold=0.5, KNN=True
+2026-02-07 22:37:33,399 - __main__ - INFO - Face recognizer loaded successfully
+2026-02-07 22:37:33,400 - face_encoder - INFO - FaceEncoder initialized with model=large, jitters=5
+2026-02-07 22:37:33,400 - __main__ - INFO - Face encoder initialized
+2026-02-07 22:37:33,864 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://127.0.0.1:5000
+2026-02-07 22:37:33,865 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-07 22:37:33,868 - werkzeug - INFO -  * Restarting with stat
+2026-02-07 22:37:36,234 - attendance_system - INFO - Loaded 2 person records
+2026-02-07 22:37:36,236 - face_recognizer - INFO - FaceRecognizer initialized with 149 encodings, threshold=0.5, KNN=True
+2026-02-07 22:37:36,237 - __main__ - INFO - Face recognizer loaded successfully
+2026-02-07 22:37:36,237 - face_encoder - INFO - FaceEncoder initialized with model=large, jitters=5
+2026-02-07 22:37:36,237 - __main__ - INFO - Face encoder initialized
+2026-02-07 22:37:36,299 - werkzeug - WARNING -  * Debugger is active!
+2026-02-07 22:37:36,306 - werkzeug - INFO -  * Debugger PIN: 134-023-995
+2026-02-07 22:37:40,866 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 22:37:40] "[36mGET / HTTP/1.1[0m" 304 -
+2026-02-07 22:37:40,999 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 22:37:40] "[36mGET /js/main.js HTTP/1.1[0m" 304 -
+2026-02-07 22:37:41,000 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 22:37:41] "[36mGET /css/styles.css HTTP/1.1[0m" 304 -
+2026-02-07 22:37:41,789 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 22:37:41] "GET /api/attendance/summary HTTP/1.1" 200 -
+2026-02-07 22:37:41,793 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 22:37:41] "GET /api/stats HTTP/1.1" 200 -
+2026-02-07 22:37:41,933 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 22:37:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-02-07 22:37:49,023 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 22:37:49] "[36mGET /enroll.html HTTP/1.1[0m" 304 -
+2026-02-07 22:37:49,126 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 22:37:49] "[36mGET /css/styles.css HTTP/1.1[0m" 304 -
+2026-02-07 22:37:49,288 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 22:37:49] "[36mGET /js/main.js HTTP/1.1[0m" 304 -
+2026-02-07 22:39:19,114 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 22:39:19] "[36mGET /index.html HTTP/1.1[0m" 304 -
+2026-02-07 22:39:19,363 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 22:39:19] "[36mGET /css/styles.css HTTP/1.1[0m" 304 -
+2026-02-07 22:39:19,533 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 22:39:19] "[36mGET /js/main.js HTTP/1.1[0m" 304 -
+2026-02-07 22:39:19,863 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 22:39:19] "GET /api/attendance/summary HTTP/1.1" 200 -
+2026-02-07 22:39:19,866 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 22:39:19] "GET /api/stats HTTP/1.1" 200 -
+2026-02-07 22:39:21,635 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 22:39:21] "[36mGET /camera.html HTTP/1.1[0m" 304 -
+2026-02-07 22:39:21,951 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 22:39:21] "[36mGET /css/styles.css HTTP/1.1[0m" 304 -
+2026-02-07 22:39:22,042 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 22:39:22] "[36mGET /js/main.js HTTP/1.1[0m" 304 -
+2026-02-07 22:39:22,364 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 22:39:22] "GET /api/attendance/summary HTTP/1.1" 200 -
+2026-02-07 22:39:27,016 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 22:39:27] "GET /api/attendance/summary HTTP/1.1" 200 -
+2026-02-07 22:39:37,130 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-02-07 22:39:37,131 - attendance_system - INFO - Marked attendance for 12400794 (ID: 0)
+2026-02-07 22:39:37,137 - attendance_system - INFO - Saved 3 attendance records to C:\Users\meutk\OneDrive\Desktop\Face Recognition Attendance System\attendance_records\attendance_2026-02-07.csv
+2026-02-07 22:39:37,139 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 22:39:37] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-07 22:39:37,477 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 22:39:37] "GET /api/attendance/summary HTTP/1.1" 200 -
+2026-02-07 22:39:48,785 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-02-07 22:39:48,786 - face_recognizer - INFO - Recognized 0/1 faces in image
+2026-02-07 22:39:48,797 - attendance_system - INFO - Saved 3 attendance records to C:\Users\meutk\OneDrive\Desktop\Face Recognition Attendance System\attendance_records\attendance_2026-02-07.csv
+2026-02-07 22:39:48,797 - attendance_system - INFO - Saved 3 attendance records to C:\Users\meutk\OneDrive\Desktop\Face Recognition Attendance System\attendance_records\attendance_2026-02-07.csv
+2026-02-07 22:39:48,802 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 22:39:48] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-07 22:39:48,804 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 22:39:48] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-07 22:39:50,721 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 22:39:50] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-07 22:39:50,855 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 22:39:50] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-07 22:39:52,373 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 22:39:52] "[36mGET /enroll.html HTTP/1.1[0m" 304 -
+2026-02-07 22:39:52,623 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 22:39:52] "[36mGET /css/styles.css HTTP/1.1[0m" 304 -
+2026-02-07 22:39:52,634 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 22:39:52] "[36mGET /js/main.js HTTP/1.1[0m" 304 -
+2026-02-07 22:41:03,331 - face_recognizer - INFO - FaceRecognizer initialized with 154 encodings, threshold=0.5, KNN=True
+2026-02-07 22:41:03,333 - __main__ - INFO - Face recognizer loaded successfully
+2026-02-07 22:41:03,333 - __main__ - INFO - Enrolled Sameer with 5 encodings (fast mode)
+2026-02-07 22:41:03,338 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 22:41:03] "POST /api/enroll HTTP/1.1" 200 -
+2026-02-07 22:41:21,350 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 22:41:21] "[36mGET /index.html HTTP/1.1[0m" 304 -
+2026-02-07 22:41:21,527 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 22:41:21] "[36mGET /css/styles.css HTTP/1.1[0m" 304 -
+2026-02-07 22:41:21,620 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 22:41:21] "[36mGET /js/main.js HTTP/1.1[0m" 304 -
+2026-02-07 22:41:21,759 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 22:41:21] "GET /api/stats HTTP/1.1" 200 -
+2026-02-07 22:41:21,947 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 22:41:21] "GET /api/attendance/summary HTTP/1.1" 200 -
+2026-02-07 22:41:22,926 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 22:41:22] "[36mGET /camera.html HTTP/1.1[0m" 304 -
+2026-02-07 22:41:23,242 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 22:41:23] "[36mGET /css/styles.css HTTP/1.1[0m" 304 -
+2026-02-07 22:41:23,323 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 22:41:23] "[36mGET /js/main.js HTTP/1.1[0m" 304 -
+2026-02-07 22:41:23,657 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 22:41:23] "GET /api/attendance/summary HTTP/1.1" 200 -
+2026-02-07 22:41:28,517 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 22:41:28] "GET /api/attendance/summary HTTP/1.1" 200 -
+2026-02-07 22:41:33,275 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 22:41:33] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-07 22:41:40,636 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-02-07 22:41:40,643 - attendance_system - INFO - Marked attendance for Sameer (ID: 4)
+2026-02-07 22:41:40,647 - attendance_system - INFO - Saved 4 attendance records to C:\Users\meutk\OneDrive\Desktop\Face Recognition Attendance System\attendance_records\attendance_2026-02-07.csv
+2026-02-07 22:41:40,649 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 22:41:40] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-07 22:41:40,975 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 22:41:40] "GET /api/attendance/summary HTTP/1.1" 200 -
+2026-02-07 22:41:59,332 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-02-07 22:41:59,333 - face_recognizer - INFO - Recognized 1/2 faces in image
+2026-02-07 22:41:59,350 - attendance_system - INFO - Saved 4 attendance records to C:\Users\meutk\OneDrive\Desktop\Face Recognition Attendance System\attendance_records\attendance_2026-02-07.csv
+2026-02-07 22:41:59,351 - attendance_system - INFO - Saved 4 attendance records to C:\Users\meutk\OneDrive\Desktop\Face Recognition Attendance System\attendance_records\attendance_2026-02-07.csv
+2026-02-07 22:41:59,353 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 22:41:59] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-07 22:41:59,367 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 22:41:59] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-07 22:41:59,369 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 22:41:59] "[36mGET /index.html HTTP/1.1[0m" 304 -
+2026-02-07 22:41:59,388 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 22:41:59] "GET /index.html HTTP/1.1" 200 -
+2026-02-07 22:41:59,419 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 22:41:59] "[36mGET /attendance.html HTTP/1.1[0m" 304 -
+2026-02-07 22:41:59,432 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 22:41:59] "GET /attendance.html HTTP/1.1" 200 -
+2026-02-07 22:41:59,442 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 22:41:59] "GET /attendance.html HTTP/1.1" 200 -
+2026-02-07 22:41:59,694 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 22:41:59] "[36mGET /css/styles.css HTTP/1.1[0m" 304 -
+2026-02-07 22:41:59,697 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 22:41:59] "[36mGET /js/main.js HTTP/1.1[0m" 304 -
+2026-02-07 22:41:59,770 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 22:41:59] "GET /api/attendance?date=2026-02-07 HTTP/1.1" 200 -
+2026-02-07 22:41:59,880 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 22:41:59] "GET /api/stats HTTP/1.1" 200 -
+2026-02-07 22:42:13,272 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-02-07 22:42:13,272 - face_recognizer - INFO - Recognized 0/1 faces in image
+2026-02-07 22:42:13,273 - face_recognizer - INFO - Recognized 0/1 faces in image
+2026-02-07 22:42:13,277 - attendance_system - INFO - Saved 4 attendance records to C:\Users\meutk\OneDrive\Desktop\Face Recognition Attendance System\attendance_records\attendance_2026-02-07.csv
+2026-02-07 22:42:13,281 - attendance_system - INFO - Saved 4 attendance records to C:\Users\meutk\OneDrive\Desktop\Face Recognition Attendance System\attendance_records\attendance_2026-02-07.csv
+2026-02-07 22:42:13,283 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 22:42:13] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-07 22:42:13,284 - attendance_system - INFO - Saved 4 attendance records to C:\Users\meutk\OneDrive\Desktop\Face Recognition Attendance System\attendance_records\attendance_2026-02-07.csv
+2026-02-07 22:42:13,285 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 22:42:13] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-07 22:42:13,289 - werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 22:42:13] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-07 22:43:59,066 - __main__ - INFO - ======================================================================
+2026-02-07 22:43:59,066 - __main__ - INFO - Face Recognition Attendance System
+2026-02-07 22:43:59,067 - __main__ - INFO - ======================================================================
+2026-02-07 22:43:59,095 - attendance_system - INFO - Loaded 4 person records
+2026-02-07 22:43:59,102 - face_recognizer - INFO - FaceRecognizer initialized with 154 encodings, threshold=0.5, KNN=True
+2026-02-07 22:43:59,102 - __main__ - INFO - Encodings loaded successfully
+2026-02-07 22:43:59,104 - __main__ - INFO - Starting camera (ID: 0)...
+2026-02-07 22:43:59,105 - __main__ - INFO - Press 'q' to quit, 's' to save frame, 'r' to reset attendance
+2026-02-07 22:44:03,863 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-02-07 22:44:06,709 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-02-07 22:44:10,037 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-02-07 22:44:12,668 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-02-07 22:44:15,237 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-02-07 22:44:19,785 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-02-07 22:44:23,907 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-02-07 22:44:26,650 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-02-08 19:05:13,650 - attendance_system - INFO - No attendance file for today
+2026-02-08 19:05:13,692 - face_recognizer - INFO - FaceRecognizer initialized with 154 encodings, threshold=0.5, KNN=True
+2026-02-08 19:05:13,693 - __main__ - INFO - Face recognizer loaded successfully
+2026-02-08 19:05:13,693 - face_encoder - INFO - FaceEncoder initialized with model=large, jitters=5
+2026-02-08 19:05:13,693 - __main__ - INFO - Face encoder initialized
+2026-02-08 19:05:14,402 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.36.32.222:5000
+2026-02-08 19:05:14,403 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-08 19:05:14,411 - werkzeug - INFO -  * Restarting with stat
+2026-02-08 19:05:18,185 - attendance_system - INFO - No attendance file for today
+2026-02-08 19:05:18,188 - face_recognizer - INFO - FaceRecognizer initialized with 154 encodings, threshold=0.5, KNN=True
+2026-02-08 19:05:18,188 - __main__ - INFO - Face recognizer loaded successfully
+2026-02-08 19:05:18,189 - face_encoder - INFO - FaceEncoder initialized with model=large, jitters=5
+2026-02-08 19:05:18,189 - __main__ - INFO - Face encoder initialized
+2026-02-08 19:05:18,258 - werkzeug - WARNING -  * Debugger is active!
+2026-02-08 19:05:18,263 - werkzeug - INFO -  * Debugger PIN: 134-023-995
+2026-02-08 19:05:38,245 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2026 19:05:38] "GET / HTTP/1.1" 200 -
+2026-02-08 19:05:38,288 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2026 19:05:38] "GET /css/styles.css HTTP/1.1" 200 -
+2026-02-08 19:05:38,305 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2026 19:05:38] "GET /js/main.js HTTP/1.1" 200 -
+2026-02-08 19:05:39,053 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2026 19:05:39] "GET /api/attendance/summary HTTP/1.1" 200 -
+2026-02-08 19:05:39,055 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2026 19:05:39] "GET /api/stats HTTP/1.1" 200 -
+2026-02-08 19:05:39,235 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2026 19:05:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-02-08 19:05:44,602 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2026 19:05:44] "GET /camera.html HTTP/1.1" 200 -
+2026-02-08 19:05:44,844 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2026 19:05:44] "[36mGET /css/styles.css HTTP/1.1[0m" 304 -
+2026-02-08 19:05:44,875 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2026 19:05:44] "[36mGET /js/main.js HTTP/1.1[0m" 304 -
+2026-02-08 19:05:44,973 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2026 19:05:44] "GET /api/attendance/summary HTTP/1.1" 200 -
+2026-02-08 19:05:55,452 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2026 19:05:55] "GET /api/attendance/summary HTTP/1.1" 200 -
+2026-02-08 19:06:07,843 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-02-08 19:06:07,845 - attendance_system - INFO - Marked attendance for 12412522 (ID: 2)
+2026-02-08 19:06:07,876 - attendance_system - INFO - Saved 1 attendance records to C:\Users\meutk\OneDrive\Desktop\Face Recognition Attendance System\attendance_records\attendance_2026-02-08.csv
+2026-02-08 19:06:07,890 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2026 19:06:07] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-08 19:06:08,226 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2026 19:06:08] "GET /api/attendance/summary HTTP/1.1" 200 -
+2026-02-08 19:06:10,023 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2026 19:06:10] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-08 19:06:10,101 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2026 19:06:10] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-08 19:06:10,131 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2026 19:06:10] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-08 19:06:19,305 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-02-08 19:06:19,316 - attendance_system - INFO - Saved 1 attendance records to C:\Users\meutk\OneDrive\Desktop\Face Recognition Attendance System\attendance_records\attendance_2026-02-08.csv
+2026-02-08 19:06:19,321 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2026 19:06:19] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-08 19:06:40,903 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-02-08 19:06:40,905 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-02-08 19:06:40,910 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-02-08 19:06:40,917 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2026 19:06:40] "GET /attendance.html HTTP/1.1" 200 -
+2026-02-08 19:06:40,918 - attendance_system - INFO - Saved 1 attendance records to C:\Users\meutk\OneDrive\Desktop\Face Recognition Attendance System\attendance_records\attendance_2026-02-08.csv
+2026-02-08 19:06:40,926 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2026 19:06:40] "GET /attendance.html HTTP/1.1" 200 -
+2026-02-08 19:06:40,929 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2026 19:06:40] "GET /attendance.html HTTP/1.1" 200 -
+2026-02-08 19:06:40,931 - attendance_system - INFO - Saved 1 attendance records to C:\Users\meutk\OneDrive\Desktop\Face Recognition Attendance System\attendance_records\attendance_2026-02-08.csv
+2026-02-08 19:06:40,931 - attendance_system - INFO - Saved 1 attendance records to C:\Users\meutk\OneDrive\Desktop\Face Recognition Attendance System\attendance_records\attendance_2026-02-08.csv
+2026-02-08 19:06:40,934 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2026 19:06:40] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-08 19:06:40,946 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2026 19:06:40] "GET /attendance.html HTTP/1.1" 200 -
+2026-02-08 19:06:40,951 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2026 19:06:40] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-08 19:06:40,956 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2026 19:06:40] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-08 19:06:41,358 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2026 19:06:41] "[36mGET /css/styles.css HTTP/1.1[0m" 304 -
+2026-02-08 19:06:41,361 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2026 19:06:41] "[36mGET /js/main.js HTTP/1.1[0m" 304 -
+2026-02-08 19:06:41,619 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2026 19:06:41] "GET /api/attendance?date=2026-02-08 HTTP/1.1" 200 -
+2026-02-08 19:06:41,730 - werkzeug - INFO - 127.0.0.1 - - [08/Feb/2026 19:06:41] "GET /api/stats HTTP/1.1" 200 -
+2026-02-13 15:40:59,561 - attendance_system - INFO - No attendance file for today
+2026-02-13 15:40:59,629 - face_recognizer - INFO - FaceRecognizer initialized with 154 encodings, threshold=0.5, KNN=True
+2026-02-13 15:40:59,630 - __main__ - INFO - Face recognizer loaded successfully
+2026-02-13 15:40:59,631 - face_encoder - INFO - FaceEncoder initialized with model=large, jitters=5
+2026-02-13 15:40:59,631 - __main__ - INFO - Face encoder initialized
+2026-02-13 15:41:00,390 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.35.135.253:5000
+2026-02-13 15:41:00,391 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-13 15:41:00,396 - werkzeug - INFO -  * Restarting with stat
+2026-02-13 15:41:03,588 - attendance_system - INFO - No attendance file for today
+2026-02-13 15:41:03,593 - face_recognizer - INFO - FaceRecognizer initialized with 154 encodings, threshold=0.5, KNN=True
+2026-02-13 15:41:03,593 - __main__ - INFO - Face recognizer loaded successfully
+2026-02-13 15:41:03,594 - face_encoder - INFO - FaceEncoder initialized with model=large, jitters=5
+2026-02-13 15:41:03,595 - __main__ - INFO - Face encoder initialized
+2026-02-13 15:41:03,691 - werkzeug - WARNING -  * Debugger is active!
+2026-02-13 15:41:03,696 - werkzeug - INFO -  * Debugger PIN: 134-023-995
+2026-02-13 15:41:19,456 - werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 15:41:19] "[36mGET / HTTP/1.1[0m" 304 -
+2026-02-13 15:41:19,536 - werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 15:41:19] "[36mGET /css/styles.css HTTP/1.1[0m" 304 -
+2026-02-13 15:41:19,536 - werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 15:41:19] "[36mGET /js/main.js HTTP/1.1[0m" 304 -
+2026-02-13 15:41:20,078 - werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 15:41:20] "GET /api/attendance/summary HTTP/1.1" 200 -
+2026-02-13 15:41:20,085 - werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 15:41:20] "GET /api/stats HTTP/1.1" 200 -
+2026-02-13 15:41:20,127 - werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 15:41:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-02-13 15:41:29,973 - werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 15:41:29] "GET /enroll.html HTTP/1.1" 200 -
+2026-02-13 15:41:30,297 - werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 15:41:30] "[36mGET /css/styles.css HTTP/1.1[0m" 304 -
+2026-02-13 15:41:30,359 - werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 15:41:30] "[36mGET /js/main.js HTTP/1.1[0m" 304 -
+2026-02-13 15:43:22,104 - face_recognizer - INFO - FaceRecognizer initialized with 159 encodings, threshold=0.5, KNN=True
+2026-02-13 15:43:22,106 - __main__ - INFO - Face recognizer loaded successfully
+2026-02-13 15:43:22,108 - __main__ - INFO - Enrolled Piyush with 5 encodings (fast mode)
+2026-02-13 15:43:22,123 - werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 15:43:22] "POST /api/enroll HTTP/1.1" 200 -
+2026-02-13 15:43:27,660 - werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 15:43:27] "GET /index.html HTTP/1.1" 200 -
+2026-02-13 15:43:27,832 - werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 15:43:27] "[36mGET /css/styles.css HTTP/1.1[0m" 304 -
+2026-02-13 15:43:27,928 - werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 15:43:27] "[36mGET /js/main.js HTTP/1.1[0m" 304 -
+2026-02-13 15:43:28,064 - werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 15:43:28] "GET /api/stats HTTP/1.1" 200 -
+2026-02-13 15:43:28,264 - werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 15:43:28] "GET /api/attendance/summary HTTP/1.1" 200 -
+2026-02-13 15:43:30,477 - werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 15:43:30] "[36mGET /camera.html HTTP/1.1[0m" 304 -
+2026-02-13 15:43:30,790 - werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 15:43:30] "[36mGET /css/styles.css HTTP/1.1[0m" 304 -
+2026-02-13 15:43:30,850 - werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 15:43:30] "[36mGET /js/main.js HTTP/1.1[0m" 304 -
+2026-02-13 15:43:31,189 - werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 15:43:31] "GET /api/attendance/summary HTTP/1.1" 200 -
+2026-02-13 15:43:43,711 - werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 15:43:43] "GET /api/attendance/summary HTTP/1.1" 200 -
+2026-02-13 15:43:56,933 - face_recognizer - INFO - Recognized 0/1 faces in image
+2026-02-13 15:43:56,941 - attendance_system - INFO - No attendance records to save
+2026-02-13 15:43:56,945 - werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 15:43:56] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-13 15:43:59,210 - werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 15:43:59] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-13 15:43:59,249 - werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 15:43:59] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-13 15:43:59,389 - werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 15:43:59] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-13 15:44:08,246 - face_recognizer - INFO - Recognized 0/1 faces in image
+2026-02-13 15:44:08,249 - attendance_system - INFO - No attendance records to save
+2026-02-13 15:44:08,252 - werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 15:44:08] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-13 15:44:10,476 - werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 15:44:10] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-13 15:46:31,203 - werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 15:46:31] "GET /api/attendance/summary HTTP/1.1" 200 -
+2026-02-13 15:46:43,958 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-02-13 15:46:43,966 - attendance_system - INFO - Marked attendance for Piyush (ID: 5)
+2026-02-13 15:46:43,983 - attendance_system - INFO - Saved 1 attendance records to C:\Users\meutk\OneDrive\Desktop\Face Recognition Attendance System\attendance_records\attendance_2026-02-13.csv
+2026-02-13 15:46:43,988 - werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 15:46:43] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-13 15:46:44,317 - werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 15:46:44] "GET /api/attendance/summary HTTP/1.1" 200 -
+2026-02-13 15:47:06,997 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-02-13 15:47:13,850 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-02-13 15:47:13,852 - attendance_system - INFO - Saved 1 attendance records to C:\Users\meutk\OneDrive\Desktop\Face Recognition Attendance System\attendance_records\attendance_2026-02-13.csv
+2026-02-13 15:47:13,855 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-02-13 15:47:13,862 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-02-13 15:47:13,865 - werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 15:47:13] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-13 15:47:13,868 - attendance_system - INFO - Saved 1 attendance records to C:\Users\meutk\OneDrive\Desktop\Face Recognition Attendance System\attendance_records\attendance_2026-02-13.csv
+2026-02-13 15:47:13,876 - attendance_system - INFO - Saved 1 attendance records to C:\Users\meutk\OneDrive\Desktop\Face Recognition Attendance System\attendance_records\attendance_2026-02-13.csv
+2026-02-13 15:47:13,893 - werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 15:47:13] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-13 15:47:13,898 - werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 15:47:13] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-13 15:47:13,903 - attendance_system - INFO - Saved 1 attendance records to C:\Users\meutk\OneDrive\Desktop\Face Recognition Attendance System\attendance_records\attendance_2026-02-13.csv
+2026-02-13 15:47:13,913 - werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 15:47:13] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-13 15:47:14,194 - werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 15:47:14] "GET /index.html HTTP/1.1" 200 -
+2026-02-13 15:47:14,255 - werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 15:47:14] "[36mGET /css/styles.css HTTP/1.1[0m" 304 -
+2026-02-13 15:47:14,260 - werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 15:47:14] "[36mGET /js/main.js HTTP/1.1[0m" 304 -
+2026-02-13 15:47:14,613 - werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 15:47:14] "GET /api/attendance/summary HTTP/1.1" 200 -
+2026-02-13 15:47:14,615 - werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 15:47:14] "GET /api/stats HTTP/1.1" 200 -
+2026-02-13 15:47:28,477 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-02-13 15:47:28,480 - werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 15:47:28] "GET /attendance.html HTTP/1.1" 200 -
+2026-02-13 15:47:28,482 - werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 15:47:28] "GET /attendance.html HTTP/1.1" 200 -
+2026-02-13 15:47:28,483 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-02-13 15:47:28,489 - attendance_system - INFO - Saved 1 attendance records to C:\Users\meutk\OneDrive\Desktop\Face Recognition Attendance System\attendance_records\attendance_2026-02-13.csv
+2026-02-13 15:47:28,506 - werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 15:47:28] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-13 15:47:28,508 - attendance_system - INFO - Saved 1 attendance records to C:\Users\meutk\OneDrive\Desktop\Face Recognition Attendance System\attendance_records\attendance_2026-02-13.csv
+2026-02-13 15:47:28,515 - werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 15:47:28] "POST /api/recognize HTTP/1.1" 200 -
+2026-02-13 15:47:28,548 - werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 15:47:28] "[36mGET /css/styles.css HTTP/1.1[0m" 304 -
+2026-02-13 15:47:28,865 - werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 15:47:28] "[36mGET /js/main.js HTTP/1.1[0m" 304 -
+2026-02-13 15:47:29,202 - werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 15:47:29] "GET /api/attendance?date=2026-02-13 HTTP/1.1" 200 -
+2026-02-13 15:47:29,207 - werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 15:47:29] "GET /api/stats HTTP/1.1" 200 -
+2026-02-13 15:47:47,481 - werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 15:47:47] "[36mGET /enroll.html HTTP/1.1[0m" 304 -
+2026-02-13 15:47:47,793 - werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 15:47:47] "[36mGET /css/styles.css HTTP/1.1[0m" 304 -
+2026-02-13 15:47:47,854 - werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 15:47:47] "[36mGET /js/main.js HTTP/1.1[0m" 304 -
+2026-03-27 13:58:39,757 - attendance_system - INFO - No attendance file for today
+2026-03-27 13:58:39,828 - face_recognizer - INFO - FaceRecognizer initialized with 159 encodings, threshold=0.5, KNN=True
+2026-03-27 13:58:39,830 - __main__ - INFO - Face recognizer loaded successfully
+2026-03-27 13:58:39,831 - face_encoder - INFO - FaceEncoder initialized with model=large, jitters=5
+2026-03-27 13:58:39,831 - __main__ - INFO - Face encoder initialized
+2026-03-27 13:58:40,619 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.35.128.216:5000
+2026-03-27 13:58:40,620 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-27 13:58:40,628 - werkzeug - INFO -  * Restarting with stat
+2026-03-27 13:58:45,457 - attendance_system - INFO - No attendance file for today
+2026-03-27 13:58:45,461 - face_recognizer - INFO - FaceRecognizer initialized with 159 encodings, threshold=0.5, KNN=True
+2026-03-27 13:58:45,462 - __main__ - INFO - Face recognizer loaded successfully
+2026-03-27 13:58:45,462 - face_encoder - INFO - FaceEncoder initialized with model=large, jitters=5
+2026-03-27 13:58:45,463 - __main__ - INFO - Face encoder initialized
+2026-03-27 13:58:45,554 - werkzeug - WARNING -  * Debugger is active!
+2026-03-27 13:58:45,559 - werkzeug - INFO -  * Debugger PIN: 134-023-995
+2026-03-27 13:58:58,595 - werkzeug - INFO - 127.0.0.1 - - [27/Mar/2026 13:58:58] "[36mGET / HTTP/1.1[0m" 304 -
+2026-03-27 13:58:58,691 - werkzeug - INFO - 127.0.0.1 - - [27/Mar/2026 13:58:58] "[36mGET /css/styles.css HTTP/1.1[0m" 304 -
+2026-03-27 13:58:58,695 - werkzeug - INFO - 127.0.0.1 - - [27/Mar/2026 13:58:58] "[36mGET /js/main.js HTTP/1.1[0m" 304 -
+2026-03-27 13:58:59,571 - werkzeug - INFO - 127.0.0.1 - - [27/Mar/2026 13:58:59] "GET /api/attendance/summary HTTP/1.1" 200 -
+2026-03-27 13:58:59,585 - werkzeug - INFO - 127.0.0.1 - - [27/Mar/2026 13:58:59] "GET /api/stats HTTP/1.1" 200 -
+2026-03-27 13:58:59,724 - werkzeug - INFO - 127.0.0.1 - - [27/Mar/2026 13:58:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-27 15:56:36,898 - attendance_system - INFO - No attendance file for today
+2026-03-27 15:56:36,945 - face_recognizer - INFO - FaceRecognizer initialized with 159 encodings, threshold=0.5, KNN=True
+2026-03-27 15:56:36,945 - __main__ - INFO - Face recognizer loaded successfully
+2026-03-27 15:56:36,946 - face_encoder - INFO - FaceEncoder initialized with model=large, jitters=5
+2026-03-27 15:56:36,946 - __main__ - INFO - Face encoder initialized
+2026-03-27 15:56:37,562 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.26.143.81:5000
+2026-03-27 15:56:37,563 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-27 15:56:37,570 - werkzeug - INFO -  * Restarting with stat
+2026-03-27 15:56:45,235 - attendance_system - INFO - No attendance file for today
+2026-03-27 15:56:45,243 - face_recognizer - INFO - FaceRecognizer initialized with 159 encodings, threshold=0.5, KNN=True
+2026-03-27 15:56:45,244 - __main__ - INFO - Face recognizer loaded successfully
+2026-03-27 15:56:45,245 - face_encoder - INFO - FaceEncoder initialized with model=large, jitters=5
+2026-03-27 15:56:45,246 - __main__ - INFO - Face encoder initialized
+2026-03-27 15:56:45,439 - werkzeug - WARNING -  * Debugger is active!
+2026-03-27 15:56:45,456 - werkzeug - INFO -  * Debugger PIN: 134-023-995
+2026-03-27 15:58:18,791 - werkzeug - INFO - 127.0.0.1 - - [27/Mar/2026 15:58:18] "GET / HTTP/1.1" 200 -
+2026-03-27 15:58:19,120 - werkzeug - INFO - 127.0.0.1 - - [27/Mar/2026 15:58:19] "GET /css/styles.css HTTP/1.1" 200 -
+2026-03-27 15:58:19,130 - werkzeug - INFO - 127.0.0.1 - - [27/Mar/2026 15:58:19] "GET /js/main.js HTTP/1.1" 200 -
+2026-03-27 15:58:19,606 - werkzeug - INFO - 127.0.0.1 - - [27/Mar/2026 15:58:19] "GET /api/stats HTTP/1.1" 200 -
+2026-03-27 15:58:19,915 - werkzeug - INFO - 127.0.0.1 - - [27/Mar/2026 15:58:19] "GET /api/attendance/summary HTTP/1.1" 200 -
+2026-03-27 15:58:19,994 - werkzeug - INFO - 127.0.0.1 - - [27/Mar/2026 15:58:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-27 15:58:30,130 - werkzeug - INFO - 127.0.0.1 - - [27/Mar/2026 15:58:30] "GET /enroll.html HTTP/1.1" 200 -
+2026-03-27 15:58:30,287 - werkzeug - INFO - 127.0.0.1 - - [27/Mar/2026 15:58:30] "[36mGET /css/styles.css HTTP/1.1[0m" 304 -
+2026-03-27 15:58:30,395 - werkzeug - INFO - 127.0.0.1 - - [27/Mar/2026 15:58:30] "[36mGET /js/main.js HTTP/1.1[0m" 304 -
+2026-03-27 16:00:14,344 - face_recognizer - INFO - FaceRecognizer initialized with 164 encodings, threshold=0.5, KNN=True
+2026-03-27 16:00:14,345 - __main__ - INFO - Face recognizer loaded successfully
+2026-03-27 16:00:14,346 - __main__ - INFO - Enrolled Priyanshu priya with 5 encodings (fast mode)
+2026-03-27 16:00:14,352 - werkzeug - INFO - 127.0.0.1 - - [27/Mar/2026 16:00:14] "POST /api/enroll HTTP/1.1" 200 -
+2026-03-27 16:00:19,269 - werkzeug - INFO - 127.0.0.1 - - [27/Mar/2026 16:00:19] "GET /camera.html HTTP/1.1" 200 -
+2026-03-27 16:00:19,583 - werkzeug - INFO - 127.0.0.1 - - [27/Mar/2026 16:00:19] "[36mGET /css/styles.css HTTP/1.1[0m" 304 -
+2026-03-27 16:00:19,657 - werkzeug - INFO - 127.0.0.1 - - [27/Mar/2026 16:00:19] "[36mGET /js/main.js HTTP/1.1[0m" 304 -
+2026-03-27 16:00:19,997 - werkzeug - INFO - 127.0.0.1 - - [27/Mar/2026 16:00:19] "GET /api/attendance/summary HTTP/1.1" 200 -
+2026-03-27 16:00:24,579 - werkzeug - INFO - 127.0.0.1 - - [27/Mar/2026 16:00:24] "GET /api/attendance/summary HTTP/1.1" 200 -
+2026-03-27 16:00:37,341 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-03-27 16:00:37,346 - attendance_system - INFO - Marked attendance for Priyanshu priya (ID: 6)
+2026-03-27 16:00:37,376 - attendance_system - INFO - Saved 1 attendance records to C:\Users\meutk\OneDrive\Desktop\Face Recognition Attendance System\attendance_records\attendance_2026-03-27.csv
+2026-03-27 16:00:37,381 - werkzeug - INFO - 127.0.0.1 - - [27/Mar/2026 16:00:37] "POST /api/recognize HTTP/1.1" 200 -
+2026-03-27 16:00:37,705 - werkzeug - INFO - 127.0.0.1 - - [27/Mar/2026 16:00:37] "GET /api/attendance/summary HTTP/1.1" 200 -
+2026-03-27 16:00:39,547 - werkzeug - INFO - 127.0.0.1 - - [27/Mar/2026 16:00:39] "POST /api/recognize HTTP/1.1" 200 -
+2026-03-27 16:00:39,573 - werkzeug - INFO - 127.0.0.1 - - [27/Mar/2026 16:00:39] "POST /api/recognize HTTP/1.1" 200 -
+2026-03-27 16:00:39,632 - werkzeug - INFO - 127.0.0.1 - - [27/Mar/2026 16:00:39] "POST /api/recognize HTTP/1.1" 200 -
+2026-03-27 16:00:48,593 - face_recognizer - INFO - Recognized 0/1 faces in image
+2026-03-27 16:00:48,603 - attendance_system - INFO - Saved 1 attendance records to C:\Users\meutk\OneDrive\Desktop\Face Recognition Attendance System\attendance_records\attendance_2026-03-27.csv
+2026-03-27 16:00:48,607 - werkzeug - INFO - 127.0.0.1 - - [27/Mar/2026 16:00:48] "POST /api/recognize HTTP/1.1" 200 -
+2026-03-27 16:00:50,629 - werkzeug - INFO - 127.0.0.1 - - [27/Mar/2026 16:00:50] "POST /api/recognize HTTP/1.1" 200 -
+2026-03-27 16:00:55,670 - werkzeug - INFO - 127.0.0.1 - - [27/Mar/2026 16:00:55] "GET /attendance.html HTTP/1.1" 200 -
+2026-03-27 16:00:55,796 - werkzeug - INFO - 127.0.0.1 - - [27/Mar/2026 16:00:55] "[36mGET /css/styles.css HTTP/1.1[0m" 304 -
+2026-03-27 16:00:55,936 - werkzeug - INFO - 127.0.0.1 - - [27/Mar/2026 16:00:55] "[36mGET /js/main.js HTTP/1.1[0m" 304 -
+2026-03-27 16:00:56,010 - werkzeug - INFO - 127.0.0.1 - - [27/Mar/2026 16:00:56] "GET /api/attendance?date=2026-03-27 HTTP/1.1" 200 -
+2026-03-27 16:00:56,262 - werkzeug - INFO - 127.0.0.1 - - [27/Mar/2026 16:00:56] "GET /api/stats HTTP/1.1" 200 -
+2026-04-27 21:37:24,366 - attendance_system - INFO - No attendance file for today
+2026-04-27 21:37:24,436 - face_recognizer - INFO - FaceRecognizer initialized with 164 encodings, threshold=0.5, KNN=True
+2026-04-27 21:37:24,437 - __main__ - INFO - Face recognizer loaded successfully
+2026-04-27 21:37:24,437 - face_encoder - INFO - FaceEncoder initialized with model=large, jitters=5
+2026-04-27 21:37:24,437 - __main__ - INFO - Face encoder initialized
+2026-04-27 21:37:24,568 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.36.32.180:5000
+2026-04-27 21:37:24,568 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-04-27 21:37:24,571 - werkzeug - INFO -  * Restarting with stat
+2026-04-27 21:37:27,999 - attendance_system - INFO - No attendance file for today
+2026-04-27 21:37:28,002 - face_recognizer - INFO - FaceRecognizer initialized with 164 encodings, threshold=0.5, KNN=True
+2026-04-27 21:37:28,002 - __main__ - INFO - Face recognizer loaded successfully
+2026-04-27 21:37:28,003 - face_encoder - INFO - FaceEncoder initialized with model=large, jitters=5
+2026-04-27 21:37:28,003 - __main__ - INFO - Face encoder initialized
+2026-04-27 21:37:28,098 - werkzeug - WARNING -  * Debugger is active!
+2026-04-27 21:37:28,103 - werkzeug - INFO -  * Debugger PIN: 134-023-995
+2026-04-27 21:37:43,769 - werkzeug - INFO - 127.0.0.1 - - [27/Apr/2026 21:37:43] "GET / HTTP/1.1" 200 -
+2026-04-27 21:37:43,826 - werkzeug - INFO - 127.0.0.1 - - [27/Apr/2026 21:37:43] "GET /css/styles.css HTTP/1.1" 200 -
+2026-04-27 21:37:43,829 - werkzeug - INFO - 127.0.0.1 - - [27/Apr/2026 21:37:43] "GET /js/main.js HTTP/1.1" 200 -
+2026-04-27 21:37:44,663 - werkzeug - INFO - 127.0.0.1 - - [27/Apr/2026 21:37:44] "GET /api/attendance/summary HTTP/1.1" 200 -
+2026-04-27 21:37:44,664 - werkzeug - INFO - 127.0.0.1 - - [27/Apr/2026 21:37:44] "GET /api/stats HTTP/1.1" 200 -
+2026-04-27 21:37:44,731 - werkzeug - INFO - 127.0.0.1 - - [27/Apr/2026 21:37:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-27 21:37:49,801 - werkzeug - INFO - 127.0.0.1 - - [27/Apr/2026 21:37:49] "GET /enroll.html HTTP/1.1" 200 -
+2026-04-27 21:37:49,866 - werkzeug - INFO - 127.0.0.1 - - [27/Apr/2026 21:37:49] "[36mGET /css/styles.css HTTP/1.1[0m" 304 -
+2026-04-27 21:37:49,874 - werkzeug - INFO - 127.0.0.1 - - [27/Apr/2026 21:37:49] "[36mGET /js/main.js HTTP/1.1[0m" 304 -
+2026-04-27 21:39:29,908 - face_recognizer - INFO - FaceRecognizer initialized with 167 encodings, threshold=0.5, KNN=True
+2026-04-27 21:39:29,909 - __main__ - INFO - Face recognizer loaded successfully
+2026-04-27 21:39:29,910 - __main__ - INFO - Enrolled tanuj with 3 encodings (fast mode)
+2026-04-27 21:39:29,916 - werkzeug - INFO - 127.0.0.1 - - [27/Apr/2026 21:39:29] "POST /api/enroll HTTP/1.1" 200 -
+2026-04-27 21:39:34,388 - werkzeug - INFO - 127.0.0.1 - - [27/Apr/2026 21:39:34] "GET /index.html HTTP/1.1" 200 -
+2026-04-27 21:39:34,484 - werkzeug - INFO - 127.0.0.1 - - [27/Apr/2026 21:39:34] "[36mGET /css/styles.css HTTP/1.1[0m" 304 -
+2026-04-27 21:39:34,495 - werkzeug - INFO - 127.0.0.1 - - [27/Apr/2026 21:39:34] "[36mGET /js/main.js HTTP/1.1[0m" 304 -
+2026-04-27 21:39:34,519 - werkzeug - INFO - 127.0.0.1 - - [27/Apr/2026 21:39:34] "GET /api/attendance/summary HTTP/1.1" 200 -
+2026-04-27 21:39:34,521 - werkzeug - INFO - 127.0.0.1 - - [27/Apr/2026 21:39:34] "GET /api/stats HTTP/1.1" 200 -
+2026-04-27 21:39:37,976 - werkzeug - INFO - 127.0.0.1 - - [27/Apr/2026 21:39:37] "GET /camera.html HTTP/1.1" 200 -
+2026-04-27 21:39:38,026 - werkzeug - INFO - 127.0.0.1 - - [27/Apr/2026 21:39:38] "[36mGET /css/styles.css HTTP/1.1[0m" 304 -
+2026-04-27 21:39:38,029 - werkzeug - INFO - 127.0.0.1 - - [27/Apr/2026 21:39:38] "[36mGET /js/main.js HTTP/1.1[0m" 304 -
+2026-04-27 21:39:38,064 - werkzeug - INFO - 127.0.0.1 - - [27/Apr/2026 21:39:38] "GET /api/attendance/summary HTTP/1.1" 200 -
+2026-04-27 21:39:41,404 - werkzeug - INFO - 127.0.0.1 - - [27/Apr/2026 21:39:41] "GET /api/attendance/summary HTTP/1.1" 200 -
+2026-04-27 21:39:54,170 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-04-27 21:39:54,176 - attendance_system - INFO - Marked attendance for tanuj (ID: 7)
+2026-04-27 21:39:54,192 - attendance_system - INFO - Saved 1 attendance records to C:\Users\meutk\OneDrive\Desktop\Face Recognition Attendance System\attendance_records\attendance_2026-04-27.csv
+2026-04-27 21:39:54,196 - werkzeug - INFO - 127.0.0.1 - - [27/Apr/2026 21:39:54] "POST /api/recognize HTTP/1.1" 200 -
+2026-04-27 21:39:54,225 - werkzeug - INFO - 127.0.0.1 - - [27/Apr/2026 21:39:54] "GET /api/attendance/summary HTTP/1.1" 200 -
+2026-04-27 21:40:25,121 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-04-27 21:40:25,124 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-04-27 21:40:25,125 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-04-27 21:40:25,129 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-04-27 21:40:25,136 - attendance_system - INFO - Saved 1 attendance records to C:\Users\meutk\OneDrive\Desktop\Face Recognition Attendance System\attendance_records\attendance_2026-04-27.csv
+2026-04-27 21:40:25,146 - werkzeug - INFO - 127.0.0.1 - - [27/Apr/2026 21:40:25] "POST /api/recognize HTTP/1.1" 200 -
+2026-04-27 21:40:25,147 - attendance_system - INFO - Saved 1 attendance records to C:\Users\meutk\OneDrive\Desktop\Face Recognition Attendance System\attendance_records\attendance_2026-04-27.csv
+2026-04-27 21:40:25,150 - attendance_system - INFO - Saved 1 attendance records to C:\Users\meutk\OneDrive\Desktop\Face Recognition Attendance System\attendance_records\attendance_2026-04-27.csv
+2026-04-27 21:40:25,152 - werkzeug - INFO - 127.0.0.1 - - [27/Apr/2026 21:40:25] "POST /api/recognize HTTP/1.1" 200 -
+2026-04-27 21:40:25,153 - attendance_system - INFO - Saved 1 attendance records to C:\Users\meutk\OneDrive\Desktop\Face Recognition Attendance System\attendance_records\attendance_2026-04-27.csv
+2026-04-27 21:40:25,155 - werkzeug - INFO - 127.0.0.1 - - [27/Apr/2026 21:40:25] "POST /api/recognize HTTP/1.1" 200 -
+2026-04-27 21:40:25,169 - werkzeug - INFO - 127.0.0.1 - - [27/Apr/2026 21:40:25] "POST /api/recognize HTTP/1.1" 200 -
+2026-04-27 21:40:33,154 - face_recognizer - INFO - Recognized 1/1 faces in image
+2026-04-27 21:40:33,156 - attendance_system - INFO - Saved 1 attendance records to C:\Users\meutk\OneDrive\Desktop\Face Recognition Attendance System\attendance_records\attendance_2026-04-27.csv
+2026-04-27 21:40:33,157 - werkzeug - INFO - 127.0.0.1 - - [27/Apr/2026 21:40:33] "POST /api/recognize HTTP/1.1" 200 -

@@ -1,0 +1,2 @@
+person_id,person_name,timestamp,confidence,face_location
+5,Piyush,2026-02-13 15:46:43,0.3497,"{'top': 266, 'right': 811, 'bottom': 489, 'left': 588}"

@@ -1,0 +1,5 @@
+person_id,person_name,timestamp,confidence,face_location
+2,12412522,2026-02-07 21:08:38,0.1294,"{'top': 313, 'right': 919, 'bottom': 634, 'left': 598}"
+3,Himanshu,2026-02-07 21:21:32,0.2216,"{'top': 365, 'right': 687, 'bottom': 588, 'left': 464}"
+0,12400794,2026-02-07 22:39:37,0.3874,"{'top': 290, 'right': 884, 'bottom': 558, 'left': 617}"
+4,Sameer,2026-02-07 22:41:40,0.2752,"{'top': 333, 'right': 932, 'bottom': 718, 'left': 546}"

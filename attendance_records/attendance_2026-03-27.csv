@@ -1,0 +1,2 @@
+person_id,person_name,timestamp,confidence,face_location
+6,Priyanshu priya,2026-03-27 16:00:37,0.0194,"{'top': 242, 'right': 835, 'bottom': 464, 'left': 613}"

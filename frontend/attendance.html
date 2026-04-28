@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Attendance Records - View and export attendance history">
+    <title>Attendance Records — FaceAttend</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="page-wrapper">
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="container">
+                <a href="index.html" class="nav-brand">
+                    <div class="nav-brand-icon">👁️</div>
+                    <span>FaceAttend</span>
+                </a>
+
+                <div class="nav-links" id="navLinks">
+                    <a href="index.html" class="nav-link">
+                        <span>🏠</span> Dashboard
+                    </a>
+                    <a href="camera.html" class="nav-link">
+                        <span>📷</span> Live Camera
+                    </a>
+                    <a href="attendance.html" class="nav-link active">
+                        <span>📋</span> Records
+                    </a>
+                    <a href="enroll.html" class="nav-link">
+                        <span>➕</span> Enroll
+                    </a>
+                </div>
+
+                <button class="nav-mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+                    ☰
+                </button>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="container">
+                <!-- Page Header -->
+                <div class="page-header">
+                    <h1 class="page-title">Attendance Records</h1>
+                    <p class="page-description">
+                        View, search, and export attendance records. Filter by date, department, or person.
+                    </p>
+                </div>
+
+                <!-- Stats Summary -->
+                <div class="stats-grid mb-xl stagger-animate">
+                    <div class="card stat-card">
+                        <div class="stat-icon success">✓</div>
+                        <div class="stat-value">32</div>
+                        <div class="stat-label">Present Today</div>
+                    </div>
+
+                    <div class="card stat-card">
+                        <div class="stat-icon error">✗</div>
+                        <div class="stat-value">16</div>
+                        <div class="stat-label">Absent Today</div>
+                    </div>
+
+                    <div class="card stat-card">
+                        <div class="stat-icon warning">⏰</div>
+                        <div class="stat-value">5</div>
+                        <div class="stat-label">Late Arrivals</div>
+                    </div>
+
+                    <div class="card stat-card">
+                        <div class="stat-icon info">📊</div>
+                        <div class="stat-value">67%</div>
+                        <div class="stat-label">Attendance Rate</div>
+                    </div>
+                </div>
+
+                <!-- Filter Bar -->
+                <div class="filter-bar">
+                    <div class="search-input">
+                        <span class="search-input-icon">🔍</span>
+                        <input type="text" class="form-input" placeholder="Search by name or ID..." id="searchInput"
+                            style="padding-left: 44px;">
+                    </div>
+
+                    <input type="date" class="form-input" id="dateFilter" style="width: auto;">
+
+                    <select class="form-select" id="departmentFilter" style="width: auto;">
+                        <option value="">All Departments</option>
+                        <option value="cs">Computer Science</option>
+                        <option value="ee">Electrical Engineering</option>
+                        <option value="me">Mechanical Engineering</option>
+                        <option value="ce">Civil Engineering</option>
+                    </select>
+
+                    <select class="form-select" id="statusFilter" style="width: auto;">
+                        <option value="">All Status</option>
+                        <option value="present">Present</option>
+                        <option value="absent">Absent</option>
+                        <option value="late">Late</option>
+                    </select>
+
+                    <button class="btn btn-primary" onclick="exportCSV()">
+                        <span>📥</span> Export CSV
+                    </button>
+                </div>
+
+                <!-- Attendance Table -->
+                <div class="table-container">
+                    <table class="table" id="attendanceTable">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Name</th>
+                                <th>Department</th>
+                                <th>Date</th>
+                                <th>Time In</th>
+                                <th>Status</th>
+                                <th>Confidence</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>EMP001</td>
+                                <td>
+                                    <div class="flex gap-sm" style="align-items: center;">
+                                        <div class="face-avatar" style="width: 32px; height: 32px; font-size: 0.75rem;">
+                                            JD</div>
+                                        John Doe
+                                    </div>
+                                </td>
+                                <td>Computer Science</td>
+                                <td>2026-02-07</td>
+                                <td>09:00 AM</td>
+                                <td><span class="badge badge-success">Present</span></td>
+                                <td>98.5%</td>
+                            </tr>
+                            <tr>
+                                <td>EMP002</td>
+                                <td>
+                                    <div class="flex gap-sm" style="align-items: center;">
+                                        <div class="face-avatar" style="width: 32px; height: 32px; font-size: 0.75rem;">
+                                            AS</div>
+                                        Alice Smith
+                                    </div>
+                                </td>
+                                <td>Electrical Engineering</td>
+                                <td>2026-02-07</td>
+                                <td>08:55 AM</td>
+                                <td><span class="badge badge-success">Present</span></td>
+                                <td>97.2%</td>
+                            </tr>
+                            <tr>
+                                <td>EMP003</td>
+                                <td>
+                                    <div class="flex gap-sm" style="align-items: center;">
+                                        <div class="face-avatar" style="width: 32px; height: 32px; font-size: 0.75rem;">
+                                            RK</div>
+                                        Rahul Kumar
+                                    </div>
+                                </td>
+                                <td>Computer Science</td>
+                                <td>2026-02-07</td>
+                                <td>09:32 AM</td>
+                                <td><span class="badge badge-warning">Late</span></td>
+                                <td>99.1%</td>
+                            </tr>
+                            <tr>
+                                <td>EMP004</td>
+                                <td>
+                                    <div class="flex gap-sm" style="align-items: center;">
+                                        <div class="face-avatar" style="width: 32px; height: 32px; font-size: 0.75rem;">
+                                            PS</div>
+                                        Priya Sharma
+                                    </div>
+                                </td>
+                                <td>Mechanical Engineering</td>
+                                <td>2026-02-07</td>
+                                <td>08:45 AM</td>
+                                <td><span class="badge badge-success">Present</span></td>
+                                <td>96.8%</td>
+                            </tr>
+                            <tr>
+                                <td>EMP005</td>
+                                <td>
+                                    <div class="flex gap-sm" style="align-items: center;">
+                                        <div class="face-avatar" style="width: 32px; height: 32px; font-size: 0.75rem;">
+                                            MB</div>
+                                        Michael Brown
+                                    </div>
+                                </td>
+                                <td>Civil Engineering</td>
+                                <td>2026-02-07</td>
+                                <td>—</td>
+                                <td><span class="badge badge-error">Absent</span></td>
+                                <td>—</td>
+                            </tr>
+                            <tr>
+                                <td>EMP006</td>
+                                <td>
+                                    <div class="flex gap-sm" style="align-items: center;">
+                                        <div class="face-avatar" style="width: 32px; height: 32px; font-size: 0.75rem;">
+                                            AJ</div>
+                                        Anjali Joshi
+                                    </div>
+                                </td>
+                                <td>Computer Science</td>
+                                <td>2026-02-07</td>
+                                <td>09:10 AM</td>
+                                <td><span class="badge badge-success">Present</span></td>
+                                <td>98.9%</td>
+                            </tr>
+                            <tr>
+                                <td>EMP007</td>
+                                <td>
+                                    <div class="flex gap-sm" style="align-items: center;">
+                                        <div class="face-avatar" style="width: 32px; height: 32px; font-size: 0.75rem;">
+                                            DW</div>
+                                        David Wilson
+                                    </div>
+                                </td>
+                                <td>Electrical Engineering</td>
+                                <td>2026-02-07</td>
+                                <td>09:45 AM</td>
+                                <td><span class="badge badge-warning">Late</span></td>
+                                <td>95.4%</td>
+                            </tr>
+                            <tr>
+                                <td>EMP008</td>
+                                <td>
+                                    <div class="flex gap-sm" style="align-items: center;">
+                                        <div class="face-avatar" style="width: 32px; height: 32px; font-size: 0.75rem;">
+                                            SP</div>
+                                        Sarah Patel
+                                    </div>
+                                </td>
+                                <td>Mechanical Engineering</td>
+                                <td>2026-02-07</td>
+                                <td>08:50 AM</td>
+                                <td><span class="badge badge-success">Present</span></td>
+                                <td>97.7%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Pagination -->
+                <div class="flex-between mt-lg">
+                    <p style="color: var(--color-text-secondary); font-size: 0.875rem;">
+                        Showing 1-8 of 48 records
+                    </p>
+                    <div class="flex gap-sm">
+                        <button class="btn btn-secondary btn-sm" disabled>← Previous</button>
+                        <button class="btn btn-primary btn-sm">1</button>
+                        <button class="btn btn-secondary btn-sm">2</button>
+                        <button class="btn btn-secondary btn-sm">3</button>
+                        <button class="btn btn-secondary btn-sm">Next →</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <p>© 2026 FaceAttend — Face Recognition Attendance System</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script>
+        // API Base URL
+        const API_BASE = window.location.origin;
+
+        // Set today's date as default
+        document.getElementById('dateFilter').valueAsDate = new Date();
+
+        // Load attendance records on page load
+        document.addEventListener('DOMContentLoaded', () => {
+            loadAttendanceRecords();
+            loadStats();
+        });
+
+        // Fetch attendance records from API
+        async function loadAttendanceRecords() {
+            try {
+                const date = document.getElementById('dateFilter').value;
+                const response = await fetch(`${API_BASE}/api/attendance?date=${date}`);
+
+                if (response.ok) {
+                    const data = await response.json();
+                    renderAttendanceTable(data.records || []);
+                    updatePagination(data.total || 0);
+                }
+            } catch (error) {
+                console.log('API not available, using demo data');
+            }
+        }
+
+        // Fetch stats from API
+        async function loadStats() {
+            try {
+                const response = await fetch(`${API_BASE}/api/stats`);
+                if (response.ok) {
+                    const stats = await response.json();
+                    const statCards = document.querySelectorAll('.stat-card .stat-value');
+                    if (statCards.length >= 1) statCards[0].textContent = stats.presentToday || 0;
+                }
+            } catch (error) {
+                console.log('Stats API not available');
+            }
+        }
+
+        // Render attendance table with API data
+        function renderAttendanceTable(records) {
+            if (records.length === 0) return;
+
+            const tbody = document.querySelector('#attendanceTable tbody');
+            tbody.innerHTML = '';
+
+            records.forEach(record => {
+                const initials = record.name.split(' ').map(n => n[0]).join('').substring(0, 2);
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td>${record.id}</td>
+                    <td>
+                        <div class="flex gap-sm" style="align-items: center;">
+                            <div class="face-avatar" style="width: 32px; height: 32px; font-size: 0.75rem;">${initials}</div>
+                            ${record.name}
+                        </div>
+                    </td>
+                    <td>${record.department || 'N/A'}</td>
+                    <td>${record.date}</td>
+                    <td>${record.timeIn || '-'}</td>
+                    <td><span class="badge badge-success">${record.status}</span></td>
+                    <td>${record.confidence}</td>
+                `;
+                tbody.appendChild(row);
+            });
+        }
+
+        // Update pagination info
+        function updatePagination(total) {
+            const paginationText = document.querySelector('.flex-between.mt-lg p');
+            if (paginationText) {
+                paginationText.textContent = `Showing ${Math.min(total, 8)} of ${total} records`;
+            }
+        }
+
+        // Date filter change handler
+        document.getElementById('dateFilter').addEventListener('change', loadAttendanceRecords);
+
+        // Search functionality
+        document.getElementById('searchInput').addEventListener('input', function (e) {
+            const searchTerm = e.target.value.toLowerCase();
+            const rows = document.querySelectorAll('#attendanceTable tbody tr');
+
+            rows.forEach(row => {
+                const text = row.textContent.toLowerCase();
+                row.style.display = text.includes(searchTerm) ? '' : 'none';
+            });
+        });
+
+        // Export CSV function
+        function exportCSV() {
+            const table = document.getElementById('attendanceTable');
+            const rows = table.querySelectorAll('tr');
+            let csv = [];
+
+            rows.forEach(row => {
+                const cols = row.querySelectorAll('td, th');
+                const rowData = [];
+                cols.forEach(col => {
+                    rowData.push('"' + col.innerText.replace(/"/g, '""') + '"');
+                });
+                csv.push(rowData.join(','));
+            });
+
+            const csvContent = csv.join('\n');
+            const blob = new Blob([csvContent], { type: 'text/csv' });
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'attendance_' + new Date().toISOString().split('T')[0] + '.csv';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            window.URL.revokeObjectURL(url);
+        }
+    </script>
+</body>
+
+</html>

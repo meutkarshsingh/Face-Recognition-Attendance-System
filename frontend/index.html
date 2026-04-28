@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Face Recognition Attendance System - Modern, AI-powered attendance tracking for colleges and offices">
+  <title>Face Recognition Attendance System</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <div class="page-wrapper">
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="container">
+        <a href="index.html" class="nav-brand">
+          <div class="nav-brand-icon">👁️</div>
+          <span>FaceAttend</span>
+        </a>
+
+        <div class="nav-links" id="navLinks">
+          <a href="index.html" class="nav-link active">
+            <span>🏠</span> Dashboard
+          </a>
+          <a href="camera.html" class="nav-link">
+            <span>📷</span> Live Camera
+          </a>
+          <a href="attendance.html" class="nav-link">
+            <span>📋</span> Records
+          </a>
+          <a href="enroll.html" class="nav-link">
+            <span>➕</span> Enroll
+          </a>
+        </div>
+
+        <button class="nav-mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+          ☰
+        </button>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="container">
+          <div class="hero-badge animate-fadeIn">
+            <span>✨</span> AI-Powered Attendance
+          </div>
+
+          <h1 class="hero-title animate-fadeIn">
+            Smart <span>Face Recognition</span><br>Attendance System
+          </h1>
+
+          <p class="hero-subtitle animate-fadeIn">
+            Revolutionize attendance tracking with advanced facial recognition technology.
+            Accurate, fast, and contactless — designed for modern institutions.
+          </p>
+
+          <div class="hero-actions animate-fadeIn">
+            <a href="camera.html" class="btn btn-primary btn-lg">
+              <span>📷</span> Start Recognition
+            </a>
+            <a href="attendance.html" class="btn btn-secondary btn-lg">
+              <span>📊</span> View Records
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Stats Section -->
+      <section class="container">
+        <div class="stats-grid stagger-animate">
+          <div class="card stat-card">
+            <div class="stat-icon primary">👥</div>
+            <div class="stat-value" id="totalEnrolled">48</div>
+            <div class="stat-label">Total Enrolled</div>
+          </div>
+
+          <div class="card stat-card">
+            <div class="stat-icon success">✓</div>
+            <div class="stat-value" id="presentToday">32</div>
+            <div class="stat-label">Present Today</div>
+          </div>
+
+          <div class="card stat-card">
+            <div class="stat-icon warning">⏰</div>
+            <div class="stat-value" id="lateArrivals">5</div>
+            <div class="stat-label">Late Arrivals</div>
+          </div>
+
+          <div class="card stat-card">
+            <div class="stat-icon info">📈</div>
+            <div class="stat-value" id="avgAccuracy">98%</div>
+            <div class="stat-label">Recognition Accuracy</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Quick Actions -->
+      <section class="container mt-xl">
+        <h2 class="section-title">Quick Actions</h2>
+        <div class="grid grid-3">
+          <a href="camera.html" class="card" style="text-decoration: none;">
+            <div style="font-size: 2.5rem; margin-bottom: 1rem;">📷</div>
+            <h3 style="margin-bottom: 0.5rem; font-weight: 600;">Live Recognition</h3>
+            <p style="color: var(--color-text-secondary); font-size: 0.875rem;">
+              Start real-time face recognition from your webcam
+            </p>
+          </a>
+
+          <a href="enroll.html" class="card" style="text-decoration: none;">
+            <div style="font-size: 2.5rem; margin-bottom: 1rem;">👤</div>
+            <h3 style="margin-bottom: 0.5rem; font-weight: 600;">Enroll New User</h3>
+            <p style="color: var(--color-text-secondary); font-size: 0.875rem;">
+              Register a new person in the face recognition system
+            </p>
+          </a>
+
+          <a href="attendance.html" class="card" style="text-decoration: none;">
+            <div style="font-size: 2.5rem; margin-bottom: 1rem;">📊</div>
+            <h3 style="margin-bottom: 0.5rem; font-weight: 600;">Generate Report</h3>
+            <p style="color: var(--color-text-secondary); font-size: 0.875rem;">
+              View and export detailed attendance reports
+            </p>
+          </a>
+        </div>
+      </section>
+
+      <!-- Recent Activity -->
+      <section class="container mt-xl">
+        <h2 class="section-title">Recent Activity</h2>
+        <div class="card">
+          <div class="recent-face-item">
+            <div class="face-avatar">JD</div>
+            <div class="face-info">
+              <div class="face-name">John Doe</div>
+              <div class="face-time">Marked present at 09:15 AM</div>
+            </div>
+            <span class="face-confidence">98.5%</span>
+          </div>
+
+          <div class="recent-face-item">
+            <div class="face-avatar">AS</div>
+            <div class="face-info">
+              <div class="face-name">Alice Smith</div>
+              <div class="face-time">Marked present at 09:12 AM</div>
+            </div>
+            <span class="face-confidence">97.2%</span>
+          </div>
+
+          <div class="recent-face-item">
+            <div class="face-avatar">RK</div>
+            <div class="face-info">
+              <div class="face-name">Rahul Kumar</div>
+              <div class="face-time">Marked present at 09:08 AM</div>
+            </div>
+            <span class="face-confidence">99.1%</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>© 2026 FaceAttend — Face Recognition Attendance System</p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/main.js"></script>
+  <script>
+    // API Base URL
+    const API_BASE = window.location.origin;
+
+    // Fetch dashboard stats from API
+    async function loadDashboardStats() {
+      try {
+        const response = await fetch(`${API_BASE}/api/stats`);
+        if (response.ok) {
+          const stats = await response.json();
+          document.getElementById('totalEnrolled').textContent = stats.totalEnrolled || 0;
+          document.getElementById('presentToday').textContent = stats.presentToday || 0;
+          document.getElementById('lateArrivals').textContent = stats.lateArrivals || 0;
+          document.getElementById('avgAccuracy').textContent = (stats.accuracy || 98) + '%';
+        }
+      } catch (error) {
+        console.log('API not available, using default values');
+      }
+    }
+
+    // Fetch recent activity from API
+    async function loadRecentActivity() {
+      try {
+        const response = await fetch(`${API_BASE}/api/attendance/summary`);
+        if (response.ok) {
+          const summary = await response.json();
+          const container = document.querySelector('.card:has(.recent-face-item)') ||
+            document.querySelector('.recent-face-item')?.parentElement;
+
+          if (container && summary.persons && Object.keys(summary.persons).length > 0) {
+            container.innerHTML = '';
+            Object.entries(summary.persons).slice(0, 5).forEach(([id, person]) => {
+              const initials = person.name.split(' ').map(n => n[0]).join('').substring(0, 2);
+              container.innerHTML += `
+                <div class="recent-face-item">
+                  <div class="face-avatar">${initials}</div>
+                  <div class="face-info">
+                    <div class="face-name">${person.name}</div>
+                    <div class="face-time">Marked present at ${person.first_entry?.split(' ')[1] || '-'}</div>
+                  </div>
+                  <span class="face-confidence">${(person.avg_confidence * 100).toFixed(1)}%</span>
+                </div>
+              `;
+            });
+          }
+        }
+      } catch (error) {
+        console.log('Could not load recent activity');
+      }
+    }
+
+    // Load data on page load
+    document.addEventListener('DOMContentLoaded', () => {
+      loadDashboardStats();
+      loadRecentActivity();
+
+      // Refresh every 30 seconds
+      setInterval(loadDashboardStats, 30000);
+      setInterval(loadRecentActivity, 30000);
+    });
+  </script>
+</body>
+
+</html>

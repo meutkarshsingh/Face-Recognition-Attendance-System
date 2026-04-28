@@ -1,0 +1,2 @@
+person_id,person_name,timestamp,confidence,face_location
+2,12412522,2026-02-08 19:06:07,0.2737,"{'top': 320, 'right': 854, 'bottom': 587, 'left': 587}"

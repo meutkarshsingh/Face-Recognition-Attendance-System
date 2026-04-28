@@ -1,0 +1,2 @@
+person_id,person_name,timestamp,confidence,face_location
+7,tanuj,2026-04-27 21:39:54,0.2657,"{'top': 241, 'right': 740, 'bottom': 562, 'left': 419}"

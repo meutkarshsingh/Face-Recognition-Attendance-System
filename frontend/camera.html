@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Live Face Recognition Camera - Mark attendance using real-time face detection">
+    <title>Live Camera — FaceAttend</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="page-wrapper">
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="container">
+                <a href="index.html" class="nav-brand">
+                    <div class="nav-brand-icon">👁️</div>
+                    <span>FaceAttend</span>
+                </a>
+
+                <div class="nav-links" id="navLinks">
+                    <a href="index.html" class="nav-link">
+                        <span>🏠</span> Dashboard
+                    </a>
+                    <a href="camera.html" class="nav-link active">
+                        <span>📷</span> Live Camera
+                    </a>
+                    <a href="attendance.html" class="nav-link">
+                        <span>📋</span> Records
+                    </a>
+                    <a href="enroll.html" class="nav-link">
+                        <span>➕</span> Enroll
+                    </a>
+                </div>
+
+                <button class="nav-mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+                    ☰
+                </button>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="container">
+                <!-- Page Header -->
+                <div class="page-header">
+                    <div class="flex-between">
+                        <div>
+                            <h1 class="page-title">Live Camera Recognition</h1>
+                            <p class="page-description">
+                                Real-time face detection and attendance marking. Look directly at the camera for best
+                                results.
+                            </p>
+                        </div>
+                        <div class="live-clock">
+                            <span>🕐</span>
+                            <span class="clock-time" id="liveClock">--:--:--</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Camera Container -->
+                <div class="camera-container">
+                    <!-- Camera Feed -->
+                    <div>
+                        <div class="camera-feed" id="cameraFeed">
+                            <video id="videoElement" autoplay playsinline
+                                style="width: 100%; height: 100%; object-fit: cover; display: none; border-radius: var(--radius-lg);"></video>
+                            <canvas id="canvasElement" style="display: none;"></canvas>
+                            <div class="camera-placeholder" id="cameraPlaceholder">
+                                <div class="camera-placeholder-icon">📷</div>
+                                <p>Click "Start Camera" to begin</p>
+                                <p style="font-size: 0.75rem; margin-top: 0.5rem;">Make sure to allow camera access</p>
+                            </div>
+                        </div>
+
+                        <div class="camera-controls">
+                            <button class="btn btn-success" id="startBtn" onclick="startCamera()">
+                                <span>▶</span> Start Camera
+                            </button>
+                            <button class="btn btn-secondary" id="stopBtn" onclick="stopCamera()" disabled>
+                                <span>⏹</span> Stop Camera
+                            </button>
+                            <button class="btn btn-outline" onclick="captureFrame()">
+                                <span>📸</span> Capture Frame
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Recognition Panel -->
+                    <div class="recognition-panel">
+                        <!-- Status Card -->
+                        <div class="recognition-status">
+                            <div class="status-indicator idle" id="statusIndicator">
+                                <span class="status-dot"></span>
+                                <span id="statusText">Camera Idle</span>
+                            </div>
+                            <div id="recognitionStats" style="margin-top: 1rem; display: none;">
+                                <div style="font-size: 2rem; font-weight: 700;" id="faceCount">0</div>
+                                <div style="color: var(--color-text-secondary); font-size: 0.875rem;">Faces Detected
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Recently Recognized -->
+                        <div class="card" style="flex: 1;">
+                            <h3 style="margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
+                                <span>👥</span> Recently Recognized
+                            </h3>
+
+                            <div class="recent-faces" id="recentFaces">
+                                <div class="recent-face-item animate-slideIn">
+                                    <div class="face-avatar">JD</div>
+                                    <div class="face-info">
+                                        <div class="face-name">John Doe</div>
+                                        <div class="face-time">Just now</div>
+                                    </div>
+                                    <span class="face-confidence">98.5%</span>
+                                </div>
+
+                                <div class="recent-face-item animate-slideIn">
+                                    <div class="face-avatar">AS</div>
+                                    <div class="face-info">
+                                        <div class="face-name">Alice Smith</div>
+                                        <div class="face-time">2 min ago</div>
+                                    </div>
+                                    <span class="face-confidence">97.2%</span>
+                                </div>
+
+                                <div class="recent-face-item animate-slideIn">
+                                    <div class="face-avatar">RK</div>
+                                    <div class="face-info">
+                                        <div class="face-name">Rahul Kumar</div>
+                                        <div class="face-time">5 min ago</div>
+                                    </div>
+                                    <span class="face-confidence">99.1%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Today's Summary -->
+                        <div class="card">
+                            <h3 style="margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
+                                <span>📊</span> Today's Summary
+                            </h3>
+                            <div class="flex-between" style="margin-bottom: 0.75rem;">
+                                <span style="color: var(--color-text-secondary);">Total Present</span>
+                                <span class="badge badge-success" id="totalPresent">32</span>
+                            </div>
+                            <div class="flex-between" style="margin-bottom: 0.75rem;">
+                                <span style="color: var(--color-text-secondary);">On Time</span>
+                                <span class="badge badge-info">27</span>
+                            </div>
+                            <div class="flex-between">
+                                <span style="color: var(--color-text-secondary);">Late Arrivals</span>
+                                <span class="badge badge-warning">5</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <p>© 2026 FaceAttend — Face Recognition Attendance System</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script>
+        // API Base URL
+        const API_BASE = window.location.origin;
+
+        // Camera functionality
+        let stream = null;
+        let recognitionInterval = null;
+        let recentlyRecognized = [];
+
+        const video = document.getElementById('videoElement');
+        const placeholder = document.getElementById('cameraPlaceholder');
+        const cameraFeed = document.getElementById('cameraFeed');
+        const startBtn = document.getElementById('startBtn');
+        const stopBtn = document.getElementById('stopBtn');
+        const statusIndicator = document.getElementById('statusIndicator');
+        const statusText = document.getElementById('statusText');
+        const recognitionStats = document.getElementById('recognitionStats');
+        const recentFaces = document.getElementById('recentFaces');
+
+        async function startCamera() {
+            try {
+                stream = await navigator.mediaDevices.getUserMedia({
+                    video: {
+                        width: { ideal: 1280 },
+                        height: { ideal: 720 },
+                        facingMode: 'user'
+                    }
+                });
+
+                video.srcObject = stream;
+                video.style.display = 'block';
+                placeholder.style.display = 'none';
+                cameraFeed.classList.add('active');
+
+                startBtn.disabled = true;
+                stopBtn.disabled = false;
+
+                statusIndicator.className = 'status-indicator active';
+                statusText.textContent = 'Camera Active';
+                recognitionStats.style.display = 'block';
+
+                // Start face recognition loop
+                startFaceRecognition();
+                loadTodaySummary();
+            } catch (err) {
+                alert('Error accessing camera: ' + err.message);
+                console.error('Camera error:', err);
+            }
+        }
+
+        function stopCamera() {
+            if (stream) {
+                stream.getTracks().forEach(track => track.stop());
+                stream = null;
+            }
+
+            if (recognitionInterval) {
+                clearInterval(recognitionInterval);
+                recognitionInterval = null;
+            }
+
+            video.style.display = 'none';
+            placeholder.style.display = 'flex';
+            cameraFeed.classList.remove('active');
+
+            startBtn.disabled = false;
+            stopBtn.disabled = true;
+
+            statusIndicator.className = 'status-indicator idle';
+            statusText.textContent = 'Camera Idle';
+            recognitionStats.style.display = 'none';
+        }
+
+        async function captureFrame() {
+            if (!stream) {
+                alert('Please start the camera first!');
+                return;
+            }
+
+            await recognizeFaces();
+        }
+
+        async function recognizeFaces() {
+            const canvas = document.getElementById('canvasElement');
+            canvas.width = video.videoWidth;
+            canvas.height = video.videoHeight;
+            canvas.getContext('2d').drawImage(video, 0, 0);
+
+            // Get base64 image
+            const imageData = canvas.toDataURL('image/jpeg', 0.8);
+
+            // Update status
+            statusIndicator.className = 'status-indicator processing';
+            statusText.textContent = 'Processing...';
+
+            try {
+                const response = await fetch(`${API_BASE}/api/recognize`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ image: imageData })
+                });
+
+                const result = await response.json();
+
+                // Update face count
+                document.getElementById('faceCount').textContent = result.totalDetected || 0;
+
+                // Add recognized faces to panel
+                if (result.success && result.faces) {
+                    result.faces.forEach(face => {
+                        if (face.recognized && face.attendanceMarked) {
+                            addRecognizedFace(face);
+                        }
+                    });
+                }
+
+                statusIndicator.className = 'status-indicator active';
+                statusText.textContent = 'Camera Active';
+
+            } catch (error) {
+                console.error('Recognition error:', error);
+                statusIndicator.className = 'status-indicator active';
+                statusText.textContent = 'Camera Active (API unavailable)';
+            }
+        }
+
+        function addRecognizedFace(face) {
+            const initials = face.personName.split(' ').map(n => n[0]).join('').substring(0, 2);
+            const confidence = (face.confidence * 100).toFixed(1);
+
+            const faceItem = document.createElement('div');
+            faceItem.className = 'recent-face-item animate-slideIn';
+            faceItem.innerHTML = `
+                <div class="face-avatar">${initials}</div>
+                <div class="face-info">
+                    <div class="face-name">${face.personName}</div>
+                    <div class="face-time">Just now</div>
+                </div>
+                <span class="face-confidence">${confidence}%</span>
+            `;
+
+            // Add to beginning
+            recentFaces.insertBefore(faceItem, recentFaces.firstChild);
+
+            // Keep only last 5
+            while (recentFaces.children.length > 5) {
+                recentFaces.removeChild(recentFaces.lastChild);
+            }
+
+            // Update summary
+            loadTodaySummary();
+        }
+
+        function startFaceRecognition() {
+            // Recognize faces every 3 seconds
+            recognitionInterval = setInterval(recognizeFaces, 3000);
+        }
+
+        async function loadTodaySummary() {
+            try {
+                const response = await fetch(`${API_BASE}/api/attendance/summary`);
+                if (response.ok) {
+                    const summary = await response.json();
+                    document.getElementById('totalPresent').textContent = summary.total_persons || 0;
+                }
+            } catch (error) {
+                console.log('Could not load summary');
+            }
+        }
+
+        // Load summary on page load
+        loadTodaySummary();
+    </script>
+</body>
+
+</html>
